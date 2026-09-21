@@ -1,0 +1,14 @@
+test_common_structure (test_results.TestProcessedDocuments.test_common_structure) ... ok
+test_eric_authors (test_results.TestProcessedDocuments.test_eric_authors) ... ok
+test_eric_id (test_results.TestProcessedDocuments.test_eric_id) ... ok
+test_eric_text_is_large (test_results.TestProcessedDocuments.test_eric_text_is_large) ... ok
+test_eric_title_not_empty (test_results.TestProcessedDocuments.test_eric_title_not_empty) ... ok
+test_pmc_authors (test_results.TestProcessedDocuments.test_pmc_authors) ... ok
+test_pmc_id (test_results.TestProcessedDocuments.test_pmc_id) ... ok
+test_pmc_text_is_large (test_results.TestProcessedDocuments.test_pmc_text_is_large) ... ok
+test_pmc_title_not_empty (test_results.TestProcessedDocuments.test_pmc_title_not_empty) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.004s
+
+OK
