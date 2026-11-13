@@ -18,7 +18,7 @@ def write_readme(stats, counts):
 Поисковое ядро написано на **C++17**, сбор корпуса и веб-интерфейс — на **Python**.
 Индекс, структуры данных, булев поиск, ранжирование и кодек реализованы в проекте.
 
-**Документов: {n(stats['documents'])} · источников: {len(stats['sources'])} · {stats['text_bytes']/1e9:.2f} ГБ чистого текста · {sum(counts.values())} автоматических проверок.**
+**Документов: {n(stats['documents'])} · источников: {len(stats['sources'])} · {stats['text_bytes']/1e9:.2f} ГБ чистого текста.**
 
 [Отчёт PDF](report.pdf) · [Исходник отчёта](report.tex) · [Формат индекса](src/ir/FORMAT.md)
 
