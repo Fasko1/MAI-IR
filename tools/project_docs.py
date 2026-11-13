@@ -22,7 +22,7 @@ def write_readme(stats, counts):
 
 [Отчёт PDF](report.pdf) · [Исходник отчёта](report.tex) · [Формат индекса](src/ir/FORMAT.md)
 
-Репозиторий: [Fasko1/MAI-IR](https://github.com/Fasko1/MAI-IR). Ссылка и QR-код также находятся на титульном листе отчёта.
+Репозиторий: [Fasko1/MAI-IR](https://github.com/Fasko1/MAI-IR). Ссылка и QR-код также находятся в конце отчёта.
 
 ## Что реализовано
 

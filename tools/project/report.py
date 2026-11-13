@@ -16,7 +16,7 @@ if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8")
 
 ROOT = Path(__file__).resolve().parents[2]
-# Ссылка на GitHub и QR-код размещены на титульном листе в templates/labs01_02.tex.
+# Ссылка на GitHub и QR-код размещены в конце отчёта после списка источников.
 sys.path.insert(0, str(ROOT))
 
 
@@ -368,6 +368,12 @@ TF-IDF ставит выше документы с более характерн
 \item Manning, Raghavan, Schütze. Introduction to Information Retrieval: переменные байтовые коды и TF-IDF, главы 5--6: \url{https://nlp.stanford.edu/IR-book/}.
 \item Собственный корпус: источники перечислены в таблице текущего снимка; фактические выводы C++-программ, JSON/CSV результатов и журналы автотестов в приложении к проекту.
 \end{enumerate}
+\sub{Репозиторий проекта}
+Исходный код, результаты проверок и отчёт доступны в репозитории:
+\begin{center}
+\url{https://github.com/Fasko1/MAI-IR}\par\vspace{3mm}
+\qrcode[height=23mm]{https://github.com/Fasko1/MAI-IR}
+\end{center}
 \end{document}
 """)
     body = "\n".join(sections)
