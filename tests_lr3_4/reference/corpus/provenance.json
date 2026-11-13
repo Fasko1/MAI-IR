@@ -1,0 +1,14 @@
+﻿[
+    {
+        "source":  "data\\lab03_texts\\1.txt",
+        "sha256":  "70f60fa93e94ebcb389c740f4869173f7cc2d6389df588c79972836f765b0924"
+    },
+    {
+        "source":  "data\\lab03_texts\\1688.txt",
+        "sha256":  "e5253f7015fbb8abf2309be3807e9b8ed23626a001b0fed004772f8339e044eb"
+    },
+    {
+        "source":  "data\\lab03_texts\\2740.txt",
+        "sha256":  "2c25d1055452e1389bc36cfa90b7a2b1f2943ca524d88950705dc8bc293f8d4b"
+    }
+]

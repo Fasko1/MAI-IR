@@ -1,0 +1,368 @@
+{
+  "query_benchmark": [
+    {
+      "index": "raw",
+      "ranked": false,
+      "queries": 23,
+      "repeats_seconds": [
+        21.737160399992717,
+        21.10805340000661,
+        21.248248899995815
+      ],
+      "median_batch_seconds": 21.248248899995815,
+      "median_seconds_per_query": 0.9238369086954702,
+      "timing_scope": "process startup, index loading, all queries, JSON output included; limit=50"
+    },
+    {
+      "index": "raw",
+      "ranked": true,
+      "queries": 23,
+      "repeats_seconds": [
+        21.40223320000223,
+        21.32300220002071,
+        21.23640109997359
+      ],
+      "median_batch_seconds": 21.32300220002071,
+      "median_seconds_per_query": 0.9270870521748135,
+      "timing_scope": "process startup, index loading, all queries, JSON output included; limit=50"
+    },
+    {
+      "index": "packed",
+      "ranked": false,
+      "queries": 23,
+      "repeats_seconds": [
+        19.460603799991077,
+        19.366675800003577,
+        19.579815300006885
+      ],
+      "median_batch_seconds": 19.460603799991077,
+      "median_seconds_per_query": 0.8461132086952642,
+      "timing_scope": "process startup, index loading, all queries, JSON output included; limit=50"
+    },
+    {
+      "index": "packed",
+      "ranked": true,
+      "queries": 23,
+      "repeats_seconds": [
+        19.558271799993236,
+        19.402093599986983,
+        19.9922853000171
+      ],
+      "median_batch_seconds": 19.558271799993236,
+      "median_seconds_per_query": 0.8503596434779668,
+      "timing_scope": "process startup, index loading, all queries, JSON output included; limit=50"
+    }
+  ],
+  "posting_passes": {
+    "raw": [
+      {
+        "compressed": false,
+        "groups": {
+          "rare": {
+            "terms": 1449410,
+            "postings": 1708950,
+            "bytes": 13671600,
+            "seconds": 2.040432698,
+            "checksum": "b013cb177a0d2939"
+          },
+          "medium": {
+            "terms": 456632,
+            "postings": 6039401,
+            "bytes": 48315208,
+            "seconds": 0.878554606,
+            "checksum": "8d01e85c8e7030b9"
+          },
+          "frequent": {
+            "terms": 57523,
+            "postings": 208967100,
+            "bytes": 1671736800,
+            "seconds": 4.759705401,
+            "checksum": "5bfb71a5c5fcbfa4"
+          },
+          "all": {
+            "terms": 1963565,
+            "postings": 216715451,
+            "bytes": 1733723608,
+            "seconds": 7.678692705,
+            "checksum": "d7036dd2dc0c1880"
+          }
+        }
+      },
+      {
+        "compressed": false,
+        "groups": {
+          "rare": {
+            "terms": 1449410,
+            "postings": 1708950,
+            "bytes": 13671600,
+            "seconds": 2.278993802,
+            "checksum": "b013cb177a0d2939"
+          },
+          "medium": {
+            "terms": 456632,
+            "postings": 6039401,
+            "bytes": 48315208,
+            "seconds": 0.972324603,
+            "checksum": "8d01e85c8e7030b9"
+          },
+          "frequent": {
+            "terms": 57523,
+            "postings": 208967100,
+            "bytes": 1671736800,
+            "seconds": 4.8842182,
+            "checksum": "5bfb71a5c5fcbfa4"
+          },
+          "all": {
+            "terms": 1963565,
+            "postings": 216715451,
+            "bytes": 1733723608,
+            "seconds": 8.135536604,
+            "checksum": "d7036dd2dc0c1880"
+          }
+        }
+      },
+      {
+        "compressed": false,
+        "groups": {
+          "rare": {
+            "terms": 1449410,
+            "postings": 1708950,
+            "bytes": 13671600,
+            "seconds": 2.054025498,
+            "checksum": "b013cb177a0d2939"
+          },
+          "medium": {
+            "terms": 456632,
+            "postings": 6039401,
+            "bytes": 48315208,
+            "seconds": 0.890583408,
+            "checksum": "8d01e85c8e7030b9"
+          },
+          "frequent": {
+            "terms": 57523,
+            "postings": 208967100,
+            "bytes": 1671736800,
+            "seconds": 4.789480899,
+            "checksum": "5bfb71a5c5fcbfa4"
+          },
+          "all": {
+            "terms": 1963565,
+            "postings": 216715451,
+            "bytes": 1733723608,
+            "seconds": 7.734089805,
+            "checksum": "d7036dd2dc0c1880"
+          }
+        }
+      }
+    ],
+    "packed": [
+      {
+        "compressed": true,
+        "groups": {
+          "rare": {
+            "terms": 1449410,
+            "postings": 1708950,
+            "bytes": 6707861,
+            "seconds": 2.051152207,
+            "checksum": "b013cb177a0d2939"
+          },
+          "medium": {
+            "terms": 456632,
+            "postings": 6039401,
+            "bytes": 20520449,
+            "seconds": 0.895151494,
+            "checksum": "8d01e85c8e7030b9"
+          },
+          "frequent": {
+            "terms": 57523,
+            "postings": 208967100,
+            "bytes": 450759486,
+            "seconds": 4.440271303,
+            "checksum": "5bfb71a5c5fcbfa4"
+          },
+          "all": {
+            "terms": 1963565,
+            "postings": 216715451,
+            "bytes": 477987796,
+            "seconds": 7.386575004,
+            "checksum": "d7036dd2dc0c1880"
+          }
+        }
+      },
+      {
+        "compressed": true,
+        "groups": {
+          "rare": {
+            "terms": 1449410,
+            "postings": 1708950,
+            "bytes": 6707861,
+            "seconds": 2.067033503,
+            "checksum": "b013cb177a0d2939"
+          },
+          "medium": {
+            "terms": 456632,
+            "postings": 6039401,
+            "bytes": 20520449,
+            "seconds": 0.918594908,
+            "checksum": "8d01e85c8e7030b9"
+          },
+          "frequent": {
+            "terms": 57523,
+            "postings": 208967100,
+            "bytes": 450759486,
+            "seconds": 6.317916403,
+            "checksum": "5bfb71a5c5fcbfa4"
+          },
+          "all": {
+            "terms": 1963565,
+            "postings": 216715451,
+            "bytes": 477987796,
+            "seconds": 9.303544814,
+            "checksum": "d7036dd2dc0c1880"
+          }
+        }
+      },
+      {
+        "compressed": true,
+        "groups": {
+          "rare": {
+            "terms": 1449410,
+            "postings": 1708950,
+            "bytes": 6707861,
+            "seconds": 2.034947287,
+            "checksum": "b013cb177a0d2939"
+          },
+          "medium": {
+            "terms": 456632,
+            "postings": 6039401,
+            "bytes": 20520449,
+            "seconds": 0.888236608,
+            "checksum": "8d01e85c8e7030b9"
+          },
+          "frequent": {
+            "terms": 57523,
+            "postings": 208967100,
+            "bytes": 450759486,
+            "seconds": 4.338671002,
+            "checksum": "5bfb71a5c5fcbfa4"
+          },
+          "all": {
+            "terms": 1963565,
+            "postings": 216715451,
+            "bytes": 477987796,
+            "seconds": 7.261854897,
+            "checksum": "d7036dd2dc0c1880"
+          }
+        }
+      }
+    ]
+  },
+  "scaling": [
+    {
+      "documents": 10,
+      "seconds": 0.07952769999974407,
+      "bytes": 153082,
+      "build_stats": {
+        "documents": 10,
+        "terms": 2987,
+        "postings": 5015,
+        "tokens": 12261,
+        "bytes": 153082,
+        "posting_bytes": 40120,
+        "compressed": false,
+        "runs": 1,
+        "peak_record_bytes": 60180,
+        "seconds": 0.064022,
+        "verified": true
+      }
+    },
+    {
+      "documents": 100,
+      "seconds": 0.20986630002153106,
+      "bytes": 784415,
+      "build_stats": {
+        "documents": 100,
+        "terms": 10670,
+        "postings": 44908,
+        "tokens": 94549,
+        "bytes": 784415,
+        "posting_bytes": 359264,
+        "compressed": false,
+        "runs": 1,
+        "peak_record_bytes": 538896,
+        "seconds": 0.197184,
+        "verified": true
+      }
+    },
+    {
+      "documents": 1000,
+      "seconds": 1.2248422999982722,
+      "bytes": 6410350,
+      "build_stats": {
+        "documents": 1000,
+        "terms": 52409,
+        "postings": 520932,
+        "tokens": 1116154,
+        "bytes": 6410350,
+        "posting_bytes": 4167456,
+        "compressed": false,
+        "runs": 1,
+        "peak_record_bytes": 6251184,
+        "seconds": 1.208874,
+        "verified": true
+      }
+    },
+    {
+      "documents": 992743,
+      "seconds": 309.845136,
+      "bytes": 2053110760,
+      "build_stats": {
+        "documents": 992743,
+        "terms": 1963565,
+        "postings": 216715451,
+        "tokens": 399609278,
+        "bytes": 2053110760,
+        "posting_bytes": 1733723608,
+        "compressed": false,
+        "runs": 39,
+        "peak_record_bytes": 67108860,
+        "seconds": 309.845136,
+        "verified": true
+      },
+      "scope": "main full-corpus build; not rebuilt just for scaling"
+    }
+  ],
+  "comparison_queries": [
+    "нейроны",
+    "нейронов",
+    "генетические исследования",
+    "клетки",
+    "клеток",
+    "программирование",
+    "работники",
+    "свет",
+    "света",
+    "машины",
+    "космический телескоп",
+    "космические телескопы",
+    "бензиновый двигатель",
+    "бензиновые двигатели",
+    "межпланетные корабли",
+    "человекоподобные роботы",
+    "искусственный интеллект",
+    "спутники",
+    "клетки && иммунитет",
+    "(космос || нейроны) && !вирус",
+    "!несуществующийтермин",
+    "(в || и) && !(ген && клетка)",
+    "агент 007"
+  ],
+  "query_cases": 46,
+  "lossless_equal": true,
+  "compared_full_result_lists": true,
+  "full_result_sha256": {
+    "(False, 'full_sha256')": "21ff63e3010cfa3db7a3e4c8600c9ea611007522be9c6b6140447c54c302624b",
+    "(True, 'full_sha256')": "2e858ce1345670d0922116b9309a70e4f30cc5e728c778471ff7416676447d7e"
+  },
+  "scope": "Текущая машина; 3 повтора с медианой; размер корпуса указан в scaling"
+}

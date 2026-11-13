@@ -1,0 +1,208 @@
+# Единый конфиг: db — БД, logic — общий обход, collection — расширенный сбор.
+# Параметры читает src/config.py; пароль POSTGRES_PASSWORD хранится только в .env.
+db:
+  host: "localhost"
+  port: 5432
+  database: "mai_ir"
+  user: "postgres"
+
+# Настройки базового робота; задержку и лимит также наследует collection.
+logic:
+  delay_seconds: 1.0
+  user_agent: "MAI-InfoSearch/2026 educational crawler"
+  respect_robots_txt: true
+
+  # Верхний предел сбора, а не фактическое количество документов в индексе.
+  max_documents: 2000000
+
+  # Проверять сохранённые документы не чаще одного раза в 100 лет.
+  update_interval_seconds: 3153600000
+
+  # Два исходных сайта: вход в обход через sitemap, далее фильтрация публикаций.
+  sources:
+    - name: "Биомолекула"
+      domain: "biomolecula.ru"
+      start_urls:
+        - "https://biomolecula.ru/sitemap.xml"
+
+    - name: "Техинсайдер"
+      domain: "techinsider.ru"
+      start_urls:
+        - "https://www.techinsider.ru/sitemap.xml"
+
+# Дополнительные источники и общая очередь. Лимит и базовая задержка наследуются из logic.
+collection:
+  # Ориентир по объёму; при stop_at_target: false достижение его не останавливает обход.
+  target_bytes: 4100000000
+  stop_at_target: false
+  collection_mode: parallel
+  accept_all_publications: true
+  wide_archives: true
+  # Порядок источников планировщика; список включает и ещё не давшие статей сайты.
+  source_order:
+  - hi-news
+  - wikipedia
+  - naked-science
+  - 3dnews
+  - ixbt
+  - scfh
+  - nkj
+  - elementy
+  - habr
+  - nplus1
+  - scientificrussia
+  - computerra
+  - ichip
+  - trashbox
+  - overclockers
+  - techinsider
+  - biomolecula
+  - ferra
+  - indicator
+  - 4pda
+  - hightech
+  - securitylab
+  - vokrugsveta
+  source_delays:
+    # Не меньше 1 секунды; более строгие задержки источников сохраняются.
+    hi-news: 1.0
+    naked-science: 2.0
+    wikipedia: 5.0
+    3dnews: 1.0
+    ixbt: 1.0
+    scfh: 1.0
+    nkj: 1.0
+    elementy: 60.0
+    habr: 10.0
+    nplus1: 1.0
+    scientificrussia: 1.0
+    computerra: 1.0
+    ichip: 1.0
+    trashbox: 1.0
+    overclockers: 1.0
+    techinsider: 1.0
+    biomolecula: 1.0
+    ferra: 1.0
+    indicator: 1.0
+    4pda: 1.0
+    hightech: 1.0
+    securitylab: 1.0
+    vokrugsveta: 1.0
+  # Параллелизм между источниками; задержки одного источника всё равно соблюдаются.
+  parallel_workers: 23
+  rate_recovery_successes: 30
+  discovery_batch_articles: 40
+  dns_retry_seconds: 30
+  wide_census_directory: data/source_candidates/census-20261108
+  http_timeout_seconds: 30
+  candidate_seed_archive: data/source_candidates/trial-20261107T112642.787460Z
+  pilot_import_directory: data/source_candidates/pilot-100
+  source_403_cooldown_seconds: 3600
+  # После серии ошибок источник временно охлаждается, а не удаляется из очереди.
+  source_error_threshold: 5
+  source_cooldown_seconds: 300
+  source_max_cooldown_seconds: 1800
+  # Общие минимумы извлечения; частные ограничения сайта перечислены ниже.
+  min_text_bytes: 1
+  publication_min_characters: 1
+  source_topic_filters:
+    hi-news: false
+    naked-science: false
+    3dnews: false
+    ixbt: false
+    scfh: false
+    nkj: false
+    habr: false
+    elementy: false
+  source_min_text_bytes:
+    hi-news: 1
+    3dnews: 1
+    ixbt: 1
+    scfh: 1
+    nkj: 1
+    habr: 1
+    elementy: 1
+  source_min_text_characters:
+    hi-news: 1
+    naked-science: 1
+  # Резерв диска для продолжения сбора; не относится к лимиту памяти индексатора.
+  min_free_disk_bytes: 8000000000
+  storage_paths:
+  - E:/MAI-IR/PostgreSQL18/tablespace
+  # Особые правила обхода Википедии: глубина категорий и запас статей в очереди.
+  wiki_depth: 5
+  wiki_prefetch_articles: 5000
+  wiki_topic_filter: false
+  wiki_min_text_bytes: 1
+  wiki_exclude_titles: (?!)
+  topic_exclude_titles: (?!)
+  wiki_categories:
+  - Физика
+  - Химия
+  - Биология
+  - Астрономия
+  - Космонавтика
+  - Геология
+  - Техника
+  - Технология
+  - Информатика
+  - Медицина
+  - Нейробиология
+  - Экология
+  - Авиация
+  - Робототехника
+  - Математика
+  - Биотехнология
+  - Энергетика
+  - Материаловедение
+  - Электроника
+  - Науки о Земле
+  - Биохимия
+  - Молекулярная биология
+  - Генетика
+  - Геномика
+  - Микробиология
+  - Вирусология
+  - Иммунология
+  - Физиология
+  - Анатомия
+  - Цитология
+  - Биофизика
+  - Фармакология
+  - Биоинформатика
+  - Эволюционная биология
+  - Ботаника
+  - Зоология
+  - Нейронауки
+  - Микология
+  - Психология
+  - Антропология
+  - Археология
+  - Палеонтология
+  - География
+  - Океанология
+  - Метеорология
+  - Климатология
+  - Естественные науки
+  - Наука
+  - Прикладные науки
+  - История науки
+  - История техники
+  - Изобретения по странам
+  - Транспорт
+  - Автомобили
+  - Судостроение
+  - Железнодорожный транспорт
+  - Военная техника
+  - Оружие
+  - Строительство
+  - Архитектура
+  - Машиностроение
+  - Промышленность
+  - Металлургия
+  - Компьютеры
+  - Программное обеспечение
+  - Искусственный интеллект
+  - Телекоммуникации
+  - Приборы
+  wiki_exclude_categories: (?i)(википедия|статьи с|шаблоны|незавершённые|незавершенные)

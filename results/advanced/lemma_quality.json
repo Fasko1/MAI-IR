@@ -1,0 +1,91 @@
+{
+  "scope": "two historical closed pools; AI judgments, no independent human review",
+  "candidate_policy": "explicit OR, same original query text; full-corpus weights, then filtered to judged pool",
+  "results": [
+    {
+      "query": "межпланетные корабли",
+      "mode": "stem",
+      "judged": 16,
+      "retrieved": 16,
+      "precision": 0.3125,
+      "recall": 1.0,
+      "at5": {
+        "precision": 0.6,
+        "dcg": 2.1309297535714578,
+        "ndcg": 0.7227265726449519,
+        "err": 0.6666666666666666
+      },
+      "ids_at5": [
+        "8983",
+        "3062",
+        "3158",
+        "9609",
+        "2845"
+      ]
+    },
+    {
+      "query": "человекоподобные роботы",
+      "mode": "stem",
+      "judged": 14,
+      "retrieved": 14,
+      "precision": 0.42857142857142855,
+      "recall": 1.0,
+      "at5": {
+        "precision": 0.4,
+        "dcg": 1.0177825608059992,
+        "ndcg": 0.34519134224686937,
+        "err": 0.3
+      },
+      "ids_at5": [
+        "8432",
+        "8763",
+        "5457",
+        "8514",
+        "1256"
+      ]
+    },
+    {
+      "query": "межпланетные корабли",
+      "mode": "lemma",
+      "judged": 16,
+      "retrieved": 16,
+      "precision": 0.3125,
+      "recall": 1.0,
+      "at5": {
+        "precision": 0.6,
+        "dcg": 2.1309297535714578,
+        "ndcg": 0.7227265726449519,
+        "err": 0.6666666666666666
+      },
+      "ids_at5": [
+        "8983",
+        "3062",
+        "3158",
+        "9609",
+        "2845"
+      ]
+    },
+    {
+      "query": "человекоподобные роботы",
+      "mode": "lemma",
+      "judged": 14,
+      "retrieved": 14,
+      "precision": 0.42857142857142855,
+      "recall": 1.0,
+      "at5": {
+        "precision": 0.2,
+        "dcg": 0.6309297535714575,
+        "ndcg": 0.21398626473452756,
+        "err": 0.25
+      },
+      "ids_at5": [
+        "8432",
+        "8763",
+        "5457",
+        "8514",
+        "2599"
+      ]
+    }
+  ],
+  "index_header_sha256": "f95a324eb0b5142b2d3aa1ae4c480de8be114edb80e7000645f517bfb17b650c"
+}

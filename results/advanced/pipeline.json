@@ -1,0 +1,79 @@
+{
+  "inputs": {
+    "data\\corpus\\tokens.tsv": {
+      "bytes": 5352272304,
+      "mtime_ns": 1794493741259144700
+    },
+    "data\\corpus\\texts.tsv": {
+      "bytes": 5461498996,
+      "mtime_ns": 1794492993012648400
+    },
+    "data\\morphology\\lemmas.tsv": {
+      "bytes": 139979954,
+      "mtime_ns": 1794579559640660600
+    }
+  },
+  "started": "2026-11-13T14:23:23.517271+00:00",
+  "stages": {
+    "lemmatization": {
+      "complete": true,
+      "seconds": 380.1674716999987,
+      "bytes": 5249821829
+    },
+    "index": {
+      "complete": true,
+      "seconds": 398.75146310000855,
+      "bytes": 2075633426
+    },
+    "compression": {
+      "complete": true,
+      "seconds": 115.9392252999969,
+      "bytes": 819057934
+    },
+    "coordinates": {
+      "complete": true,
+      "seconds": 430.9709701999964,
+      "bytes": 3327027225
+    },
+    "text_offsets": {
+      "complete": true,
+      "seconds": 118.54018450000149,
+      "bytes": 7941976
+    },
+    "verify": {
+      "complete": true,
+      "seconds": 32.33877410000423,
+      "bytes": 819057934
+    },
+    "skips": {
+      "complete": true,
+      "seconds": 37.77640960000281,
+      "bytes": 92080368
+    },
+    "coordinate_audit": {
+      "complete": true,
+      "seconds": 112.10408840001037,
+      "bytes": 279
+    }
+  },
+  "current": "complete",
+  "finished": "2026-11-13T14:56:47.217233+00:00",
+  "dictionary": {
+    "source": "https://opencorpora.org/files/export/dict/dict.opcorpora.xml.bz2",
+    "license": "OpenCorpora dictionary data, CC BY-SA 3.0",
+    "source_sha256": null,
+    "data_distribution": "2.4.417150.4580142",
+    "dictionary_sha256": "03ad758b7667932deb101a0b1db04dec23948d5bb7eecee75b26cadadb530658",
+    "forms": 3060103,
+    "ambiguous_forms": 42697,
+    "policy": "lexicographically first normalized lemma; unknown token unchanged",
+    "distribution_license": "MIT license",
+    "distribution_homepage": "https://github.com/no-plagiarism/pymorphy3-dicts",
+    "source_files_sha256": {
+      "meta.json": "0c16fa06946dbda7db6df209128004f5edb36f9d8bdf48e5efff6045ec21a2fd",
+      "paradigms.array": "dfc465558f1a2760bbde6fa89f0447a5c93896da429efe658fe2f0638954758b",
+      "suffixes.json": "c827ccc32b85e42c3edab8ac235bf91fdbc392e94455ad139da06fb1babcdb74",
+      "words.dawg": "ae4381a9d6e4e636309ac1a242e480a9470a05723f6673d5fcc3fcf293aa8a9e"
+    }
+  }
+}

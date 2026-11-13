@@ -1,0 +1,68 @@
+# Virtual environment
+.venv/
+.local/
+# Personal study guides are kept locally.
+docs/
+# Original screenshots; named report illustrations are in images/screenshots/.
+photo/
+
+# Secrets
+.env
+.env.*
+*.sql
+*.sql.gz
+*.dump
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Crawler state
+crawler_state.pkl
+
+# Dataset
+data/raw/*
+data/clean/*
+data/source_probes/
+data/source_candidates/
+data/expansion/
+
+# Keep directories
+!data/raw/.gitkeep
+!data/clean/.gitkeep
+
+# IDE
+.vscode/
+.idea/
+
+# Reproducible C++ binaries, fixtures and intermediate TeX output
+build/
+logs/
+special_sources/
+*.aux
+*.log
+*.out
+*.toc
+*.xdv
+
+# The corpus is distributed separately; derived files are rebuilt by project.ps1 rebuild.
+data/lab03_texts/
+data/lab03_tokens/
+data/lab04_stems/
+data/lab04_stems_filtered/
+data/lab07_index/
+data/lab11_index/
+data/corpus/
+data/archive/
+data/advanced/
+data/morphology/
+# Reference project supplied for review.
+arus/
+crawler_state.before-*.pkl
+*.zip
+
+# Full frequency lists are local outputs; summary JSON and graphs are published.
+lab05/results/*/freq.txt
+# Reports from inspecting the local machine are local.
+results/report_revision.json
+report_unified.pdf

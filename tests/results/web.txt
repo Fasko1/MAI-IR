@@ -1,0 +1,20 @@
+test_form_and_health (__main__.WebTests.test_form_and_health) ... 127.0.0.1 - - [13/Nov/2026 20:24:39] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [13/Nov/2026 20:24:39] "GET /health HTTP/1.1" 200 -
+ok
+test_invalid_query_and_route (__main__.WebTests.test_invalid_query_and_route) ... 127.0.0.1 - - [13/Nov/2026 20:24:39] "GET /?q=agent+%26%26+%28 HTTP/1.1" 422 -
+127.0.0.1 - - [13/Nov/2026 20:24:39] "GET /?q=agent&offset=oops HTTP/1.1" 400 -
+127.0.0.1 - - [13/Nov/2026 20:24:39] "GET /missing HTTP/1.1" 404 -
+ok
+test_links (__main__.WebTests.test_links) ... ok
+test_multiline_query_is_one_query (__main__.WebTests.test_multiline_query_is_one_query) ... 127.0.0.1 - - [13/Nov/2026 20:24:39] "GET /?q=agent%0Aunknownterm HTTP/1.1" 200 -
+ok
+test_pagination_and_html_escaping (__main__.WebTests.test_pagination_and_html_escaping) ... 127.0.0.1 - - [13/Nov/2026 20:24:39] "GET /?q=agent HTTP/1.1" 200 -
+127.0.0.1 - - [13/Nov/2026 20:24:39] "GET /?q=agent&offset=50 HTTP/1.1" 200 -
+ok
+test_ranked_preserves_numeric_identifier (__main__.WebTests.test_ranked_preserves_numeric_identifier) ... 127.0.0.1 - - [13/Nov/2026 20:24:39] "GET /?q=007&mode=ranked HTTP/1.1" 200 -
+ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.620s
+
+OK

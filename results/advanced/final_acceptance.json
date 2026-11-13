@@ -1,0 +1,45 @@
+{
+  "passed": true,
+  "documents": 992743,
+  "tokens": 399609278,
+  "test_cases": 256,
+  "full_lossless_lists": 46,
+  "verified_phrase_originals": 50,
+  "selected_skip_step": 32,
+  "train_speedup": 1.2557258097740007,
+  "test_speedup": 1.5428160027104096,
+  "all_coordinates_audited": 399609278,
+  "files": {
+    "index": {
+      "path": "data/advanced/index.ir",
+      "bytes": 819057934,
+      "sha256": "19d6f353d618bc7b7414c1407a8cd02a1b642c60813cec7ec76d18657808bc37"
+    },
+    "lemmas": {
+      "path": "data/morphology/lemmas.tsv",
+      "bytes": 139979954,
+      "sha256": "03ad758b7667932deb101a0b1db04dec23948d5bb7eecee75b26cadadb530658"
+    },
+    "positions": {
+      "path": "data/advanced/positions.ir",
+      "bytes": 3327027225,
+      "sha256": "a8457fdc0436492cf9bf63340b42c4b1a4f20706077fc4801d1f72f831181506"
+    },
+    "texts": {
+      "path": "data/corpus/texts.tsv",
+      "bytes": 5461498996,
+      "sha256": "39f45dc7f5c04dc5800ca31738e71378097606f5868a2055066fc9e1d7746962"
+    },
+    "text-offsets": {
+      "path": "data/advanced/texts.offsets",
+      "bytes": 7941976,
+      "sha256": "ab89f77607401018c59cce86540bb42d74cdf2f62393a0a0250d801523c72c63"
+    },
+    "skip-index": {
+      "path": "data/advanced/skips-32.ir",
+      "bytes": 243082096,
+      "sha256": "856ada71630819d0c4a9a25300d7c0c138faef9f58ec6f3220a82ee16048c6e9"
+    }
+  },
+  "index_bundle_bytes": 4397109231
+}

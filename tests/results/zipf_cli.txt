@@ -1,0 +1,17 @@
+PASS Z01 corpus_occurrences
+PASS Z02 frequency_and_tie_order
+PASS Z03 utf8_whitespace
+PASS Z04 line_endings
+PASS Z05 final_line_without_lf
+PASS Z06 empty_lines
+PASS Z07 input_list_format
+PASS Z08 long_term
+PASS Z09 table_growth
+PASS Z10 invalid_utf8
+PASS Z11 nul
+PASS Z12 missing_input
+PASS Z13 empty_corpus
+PASS Z14 missing_list
+PASS Z15 output_error
+PASS Z16 arguments
+ZIPF_CLI: cases=16 PASS=16 FAIL=0

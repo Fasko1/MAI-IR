@@ -1,0 +1,121 @@
+{
+  "suite": "ZIPF_CLI",
+  "cases": 16,
+  "passed": 16,
+  "failed": 0,
+  "seconds": 0.38951510000333656,
+  "test_cases": [
+    {
+      "name": "Z01 corpus_occurrences",
+      "basis": "ЛР5: считаются все вхождения, включая повторы внутри одного документа",
+      "status": "PASS",
+      "detail": "",
+      "seconds": 0.02684969999245368
+    },
+    {
+      "name": "Z02 frequency_and_tie_order",
+      "basis": "ЛР5: частота по убыванию, при равенстве — термин по Unicode",
+      "status": "PASS",
+      "detail": "",
+      "seconds": 0.020573500005411915
+    },
+    {
+      "name": "Z03 utf8_whitespace",
+      "basis": "Границы строк обрезаются по Unicode-пробелам; внутренние пробелы сохраняются",
+      "status": "PASS",
+      "detail": "",
+      "seconds": 0.016009900005883537
+    },
+    {
+      "name": "Z04 line_endings",
+      "basis": "ЛР5: LF, CRLF и CR одинаково отделяют вхождения",
+      "status": "PASS",
+      "detail": "",
+      "seconds": 0.015410299994982779
+    },
+    {
+      "name": "Z05 final_line_without_lf",
+      "basis": "ЛР5: последнее вхождение без завершающего LF не теряется",
+      "status": "PASS",
+      "detail": "",
+      "seconds": 0.016967799994745292
+    },
+    {
+      "name": "Z06 empty_lines",
+      "basis": "ЛР5: пустые строки и строки из пробелов не создают пустой термин",
+      "status": "PASS",
+      "detail": "",
+      "seconds": 0.019239800007198937
+    },
+    {
+      "name": "Z07 input_list_format",
+      "basis": "Пустые строки списка, CRLF и последний путь без LF поддерживаются",
+      "status": "PASS",
+      "detail": "",
+      "seconds": 0.01624279998941347
+    },
+    {
+      "name": "Z08 long_term",
+      "basis": "Собственный буфер растёт; корректная UTF-8 строка длиннее начальной ёмкости не обрезается",
+      "status": "PASS",
+      "detail": "",
+      "seconds": 0.02476820000447333
+    },
+    {
+      "name": "Z09 table_growth",
+      "basis": "Рехеширование и сортировка не теряют ключи при росте словаря",
+      "status": "PASS",
+      "detail": "",
+      "seconds": 0.04464629999711178
+    },
+    {
+      "name": "Z10 invalid_utf8",
+      "basis": "Общий контракт UTF-8: обрыв, overlong, surrogate и неверные continuation отклоняются",
+      "status": "PASS",
+      "detail": "",
+      "seconds": 0.07720300000801217
+    },
+    {
+      "name": "Z11 nul",
+      "basis": "NUL не должен тихо обрезать строку или объединять разные термины",
+      "status": "PASS",
+      "detail": "",
+      "seconds": 0.01488259999314323
+    },
+    {
+      "name": "Z12 missing_input",
+      "basis": "Отсутствующий входной документ — ошибка, не молчаливое занижение частот",
+      "status": "PASS",
+      "detail": "",
+      "seconds": 0.013058600001386367
+    },
+    {
+      "name": "Z13 empty_corpus",
+      "basis": "Частоты и модель Ципфа не определены для корпуса без вхождений",
+      "status": "PASS",
+      "detail": "",
+      "seconds": 0.03772490000119433
+    },
+    {
+      "name": "Z14 missing_list",
+      "basis": "Отсутствующий список входов диагностируется",
+      "status": "PASS",
+      "detail": "",
+      "seconds": 0.008687499997904524
+    },
+    {
+      "name": "Z15 output_error",
+      "basis": "Ошибка создания выхода возвращает ненулевой код",
+      "status": "PASS",
+      "detail": "",
+      "seconds": 0.015856500001973473
+    },
+    {
+      "name": "Z16 arguments",
+      "basis": "Число аргументов CLI проверяется до начала обработки",
+      "status": "PASS",
+      "detail": "",
+      "seconds": 0.021033600001828745
+    }
+  ]
+}

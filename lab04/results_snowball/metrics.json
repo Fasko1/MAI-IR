@@ -1,0 +1,237 @@
+{
+  "evaluation": "AND search before/after Russian Snowball on existing fixed per-query judged pools",
+  "collection_policy": "Each query searches only document ids judged for that query; token/stem modes use the same ids. STOPLIST is not used.",
+  "assessor": [
+    "ИИ; экспертная оценка по тексту и контекстам, без независимой ручной проверки"
+  ],
+  "qrels_source": "lab04/review_10000/review_10000.csv",
+  "qrels_sha256": "4a3d51d8d783fdecd8bb8c0b5944ddf05574db48828fc4b6223c78cbae144266",
+  "source_sha256": {
+    "lab03/funcs/tokenizer.cpp": "19c5a61e4a57c6e6bfe41f250854c0f6ce88e7d0468e1700f07be4a352253e00",
+    "lab03/funcs/tokenizer.h": "63ed6e76bebd1f4b20350377f2a66891887bfb7aabb503283077455952c879c0",
+    "lab03/tokenization.cpp": "08f5e8f7bf39a6619e6d5a9417a0b6884149c78634e8109fccc53e0ba1545954",
+    "lab03/abbrevs.txt": "b760689985eab1bc06121b691b336a8657bb59c9d59f46812b41e6c78490ad12",
+    "lab04/funcs/stemmer.cpp": "e217fe4e8fbbff6759f6e9fded60562079dd5d9f1a8e9990094c0b78602ee2be",
+    "lab04/funcs/stemmer.h": "43f9379ebcd6133ec6151a0795a53b55c9c10ba9af14973199fbceabb7ec7b6e",
+    "lab04/stemming.cpp": "02679dc38905bb995f7974c790ad833066eefce91441644db8d82adab29c6935",
+    "lab04/search.cpp": "f886aa8a56e28f094cede339fe2f4cf801b09f70ed4d2137f4e319631f19da03",
+    "lab04/evaluate_stemming.py": "cdfd624faa2dad2566af3dd45adaf8449f7f8a2cf0eeec7bdc147dc14d6221b5"
+  },
+  "binary_sha256": {
+    "tokenization.exe": "6303165ecd92096fe2bddf3f756d46f2816efa9c50a148e09b185fb382290779",
+    "stemming.exe": "ac56362753256ee239f5c436fa9915a1565e86fa6ed5fb6df485092bd4deefae",
+    "search.exe": "8d4c2604fbcc40b961b700de60858fc910b1edec3f165f106341397261c5edf4"
+  },
+  "pool_sha256": {
+    "q15": {
+      "tokens": "d7733669ac009586934da63950972abecba5c543dfb06c4224b87148495ed261",
+      "stems": "9ed5edb000dbde2c54a7f89362931f220ad15ab8c7ec4d0565e3cd9fb0d99e6a"
+    },
+    "q16": {
+      "tokens": "17a7048f5d0ccc759d4d35901664c07551bcb3892b8dea392d760c48a0ce31cd",
+      "stems": "c22d8764345b6554782f26214aa050529f62d96acca22078069c051046a14198"
+    }
+  },
+  "queries": [
+    {
+      "query_id": "q15",
+      "query": "межпланетные корабли",
+      "intent": "Содержательное описание межпланетных кораблей, проектов или их транспортных систем; краткое упоминание зонда в хронике не достаточно.",
+      "judged_documents": 16,
+      "relevant_documents": 5,
+      "pool_ids": [
+        "202",
+        "368",
+        "2845",
+        "3062",
+        "3158",
+        "3540",
+        "5493",
+        "7704",
+        "7858",
+        "8983",
+        "9243",
+        "9333",
+        "9609",
+        "9619",
+        "9794",
+        "9828"
+      ],
+      "query_tokens": [
+        "межпланетные",
+        "корабли"
+      ],
+      "query_stems": [
+        "межпланетн",
+        "корабл"
+      ]
+    },
+    {
+      "query_id": "q16",
+      "query": "человекоподобные роботы",
+      "intent": "Описание устройства, возможностей или соревнований человекоподобных роботов; случайное упоминание и сравнение с человеком не достаточно.",
+      "judged_documents": 14,
+      "relevant_documents": 6,
+      "pool_ids": [
+        "236",
+        "490",
+        "1138",
+        "1256",
+        "1997",
+        "2567",
+        "2599",
+        "5457",
+        "7596",
+        "7728",
+        "8432",
+        "8514",
+        "8763",
+        "9088"
+      ],
+      "query_tokens": [
+        "человекоподобные",
+        "роботы"
+      ],
+      "query_stems": [
+        "человекоподобн",
+        "робот"
+      ]
+    }
+  ],
+  "results": [
+    {
+      "query_id": "q15",
+      "query": "межпланетные корабли",
+      "mode": "tokens",
+      "judged_documents": 16,
+      "relevant_documents": 5,
+      "retrieved": 5,
+      "relevant_retrieved": 2,
+      "precision": 0.4,
+      "pool_recall": 0.4,
+      "f1": 0.4000000000000001,
+      "retrieved_ids": [
+        "2845",
+        "3540",
+        "7704",
+        "8983",
+        "9828"
+      ],
+      "relevant_retrieved_ids": [
+        "8983",
+        "9828"
+      ],
+      "missed_relevant_ids": [
+        "202",
+        "3062",
+        "3158"
+      ]
+    },
+    {
+      "query_id": "q15",
+      "query": "межпланетные корабли",
+      "mode": "stems",
+      "judged_documents": 16,
+      "relevant_documents": 5,
+      "retrieved": 16,
+      "relevant_retrieved": 5,
+      "precision": 0.3125,
+      "pool_recall": 1.0,
+      "f1": 0.47619047619047616,
+      "retrieved_ids": [
+        "202",
+        "368",
+        "2845",
+        "3062",
+        "3158",
+        "3540",
+        "5493",
+        "7704",
+        "7858",
+        "8983",
+        "9243",
+        "9333",
+        "9609",
+        "9619",
+        "9794",
+        "9828"
+      ],
+      "relevant_retrieved_ids": [
+        "202",
+        "3062",
+        "3158",
+        "8983",
+        "9828"
+      ],
+      "missed_relevant_ids": []
+    },
+    {
+      "query_id": "q16",
+      "query": "человекоподобные роботы",
+      "mode": "tokens",
+      "judged_documents": 14,
+      "relevant_documents": 6,
+      "retrieved": 1,
+      "relevant_retrieved": 0,
+      "precision": 0.0,
+      "pool_recall": 0.0,
+      "f1": 0.0,
+      "retrieved_ids": [
+        "236"
+      ],
+      "relevant_retrieved_ids": [],
+      "missed_relevant_ids": [
+        "490",
+        "1138",
+        "1256",
+        "2567",
+        "7728",
+        "8763"
+      ]
+    },
+    {
+      "query_id": "q16",
+      "query": "человекоподобные роботы",
+      "mode": "stems",
+      "judged_documents": 14,
+      "relevant_documents": 6,
+      "retrieved": 14,
+      "relevant_retrieved": 6,
+      "precision": 0.42857142857142855,
+      "pool_recall": 1.0,
+      "f1": 0.6,
+      "retrieved_ids": [
+        "236",
+        "490",
+        "1138",
+        "1256",
+        "1997",
+        "2567",
+        "2599",
+        "5457",
+        "7596",
+        "7728",
+        "8432",
+        "8514",
+        "8763",
+        "9088"
+      ],
+      "relevant_retrieved_ids": [
+        "490",
+        "1138",
+        "1256",
+        "2567",
+        "7728",
+        "8763"
+      ],
+      "missed_relevant_ids": []
+    }
+  ],
+  "limitations": [
+    "Existing AI relevance judgments are reused unchanged; they have no independent human validation.",
+    "Recall is measured relative to each closed judged pool, not all relevant documents in the 10000-document corpus.",
+    "The small historical pools were selected for previous experiments and can be biased toward documents found by the old stemmer.",
+    "Precision/F1 here apply to the closed pool and do not estimate overall search quality on unseen queries.",
+    "Historical before/after columns from the qrels file are ignored; both result sets are produced again by current C++ programs."
+  ]
+}

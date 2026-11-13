@@ -1,0 +1,15 @@
+{
+  "by_group": {
+    "linguistics_unit": 27,
+    "linguistics_cli": 38,
+    "linguistics_contracts": 12,
+    "zipf_cli": 16,
+    "search_cli": 37,
+    "search_unit": 12,
+    "web": 6,
+    "stream": 6,
+    "collection": 88,
+    "extensions": 18
+  },
+  "total_cases": 260
+}

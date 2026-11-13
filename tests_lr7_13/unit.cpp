@@ -1,0 +1,26 @@
+// Пояснение к файлу: Прямые C++ unit-проверки контейнеров, кодека и поискового ядра.
+// Как читать: Подготовка малых данных → проверки значений и ошибок → итог. Контроль кодека не является дополнительными документами корпуса.
+// Команды запуска и структура проекта: README.md.
+
+// Unit checks target container invariants and the published disk codec, without
+// depending on tokenization output or copying the engine implementation.
+#include "../src/ir/engine.h"
+namespace {
+unsigned checks=0,cases=0;
+void expect(bool condition,const char* message){++checks;if(!condition)ir::fail("Unit assertion: %s",message);}
+void vector_growth(){ir::Vec<uint32_t> a;for(uint32_t i=0;i<10000;++i)a.push(i*3);expect(a.size==10000,"vector length");for(uint32_t i=0;i<10000;++i)expect(a[i]==i*3,"growth preserves elements");a.resize(12000);for(size_t i=10000;i<a.size;++i)expect(a[i]==0,"resize initializes new elements");a.clear();expect(a.size==0&&a.capacity>=12000,"clear preserves capacity");}
+void vector_swap(){ir::Vec<uint32_t> a,b;a.push(7);b.push(9);b.push(11);a.swap(b);expect(a.size==2&&a[0]==9&&a[1]==11,"swap contents");expect(b.size==1&&b[0]==7,"swap ownership");}
+void hash_growth(){ir::StringMap map;ir::Vec<char*> keys;for(uint32_t i=0;i<5000;++i){char key[40];std::snprintf(key,sizeof(key),"term_%u",i);keys.push(ir::copy_string(key));map.insert(keys[i],i*17);}for(uint32_t i=0;i<5000;++i){uint32_t value=0;expect(map.find(keys[i],value)&&value==i*17,"hash survives collisions and rehash");}uint32_t value;expect(!map.find("missing",value),"unknown hash key");bool rejected=false;try{map.insert(keys[0],0);}catch(const ir::Error&){rejected=true;}expect(rejected,"duplicate key rejected");for(size_t i=0;i<keys.size;++i)std::free(keys[i]);}
+void heap_sort(){ir::Vec<uint32_t> values;uint32_t random=42;uint64_t before=0;for(size_t i=0;i<10000;++i){random=random*1664525u+1013904223u;uint32_t value=random%97;values.push(value);before+=value;}ir::sort(values.data,values.size,[](uint32_t a,uint32_t b){return a<b;});uint64_t after=0;for(size_t i=0;i<values.size;++i){after+=values[i];if(i)expect(values[i-1]<=values[i],"heap sort order with duplicates");}expect(after==before,"heap sort preserves sum");uint32_t one=12;ir::sort(&one,1,[](uint32_t a,uint32_t b){return a<b;});ir::sort(static_cast<uint32_t*>(nullptr),0,[](uint32_t a,uint32_t b){return a<b;});expect(one==12,"singleton and empty sort");}
+void utf8(){expect(ir::valid_utf8("Молекула ёж CRISPR 007"),"Russian/Latin UTF-8");expect(ir::valid_utf8("\xf0\x9f\x98\x80"),"four-byte Unicode");expect(!ir::valid_utf8("\xc0\x80"),"overlong NUL");expect(!ir::valid_utf8("\xed\xa0\x80"),"surrogate rejected");expect(!ir::valid_utf8("\xf4\x90\x80\x80"),"above Unicode range");expect(!ir::valid_utf8("\xd0"),"truncated UTF-8");expect(!ir::valid_utf8("\x80"),"stray continuation");}
+void known_hash(){expect(ir::hash_bytes("",0)==14695981039346656037ull,"FNV empty known vector");expect(ir::hash_bytes("a",1)==0xaf63dc4c8601ec8cull,"FNV published single byte vector");}
+void vb_vectors(){struct Example{uint32_t number;unsigned char bytes[5];size_t count;};Example samples[]={{0,{0x80},1},{1,{0x81},1},{127,{0xff},1},{128,{0,0x81},2},{16383,{0x7f,0xff},2},{16384,{0,0,0x81},3},{UINT32_MAX,{0x7f,0x7f,0x7f,0x7f,0x8f},5}};for(const auto& e:samples){ir::Vec<unsigned char> encoded;ir::vb_encode(e.number,encoded);expect(encoded.size==e.count&&std::memcmp(encoded.data,e.bytes,e.count)==0,"VB exact published byte representation");size_t at=0;expect(ir::vb_decode(e.bytes,e.count,at)==e.number&&at==e.count,"VB independent byte fixture decode");}}
+void vb_roundtrip(){ir::Vec<unsigned char> encoded;ir::Vec<uint32_t> numbers;uint32_t random=743;for(size_t i=0;i<200000;++i){random=random*1664525u+1013904223u;numbers.push(random);ir::vb_encode(random,encoded);}size_t at=0;for(size_t i=0;i<numbers.size;++i)expect(ir::vb_decode(encoded.data,encoded.size,at)==numbers[i],"random full uint32 roundtrip");expect(at==encoded.size,"VB cursor consumes exact stream");}
+void vb_bad(const unsigned char* bytes,size_t size,const char* why){size_t at=0;bool rejected=false;try{ir::vb_decode(bytes,size,at);}catch(const ir::Error&){rejected=true;}expect(rejected,why);}
+void vb_truncated(){unsigned char bytes[]={0};vb_bad(bytes,1,"missing final byte");vb_bad(bytes,0,"empty stream");}
+void vb_overflow(){unsigned char bytes[]={0x7f,0x7f,0x7f,0x7f,0x90};vb_bad(bytes,5,"uint32 overflow");}
+void vb_noncanonical(){unsigned char bytes[]={0,0x80};vb_bad(bytes,2,"redundant zero group");}
+void vb_overlong(){unsigned char bytes[]={0,0,0,0,0,0x81};vb_bad(bytes,6,"six-byte unsigned32 integer");}
+void run(const char* name,void (*test)()){test();++cases;std::printf("PASS %s\n",name);}
+}
+int main(){try{run("vector_growth",vector_growth);run("vector_swap",vector_swap);run("hash_growth",hash_growth);run("heap_sort",heap_sort);run("utf8_validation",utf8);run("known_hash",known_hash);run("vb_known_vectors",vb_vectors);run("vb_random_roundtrip",vb_roundtrip);run("vb_truncated",vb_truncated);run("vb_overflow",vb_overflow);run("vb_noncanonical",vb_noncanonical);run("vb_overlong",vb_overlong);std::printf("RESULT cases=%u checks=%u failures=0\n",cases,checks);return 0;}catch(const ir::Error& e){std::fprintf(stderr,"FAIL %s\n",e.message);return 1;}}

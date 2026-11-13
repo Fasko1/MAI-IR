@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "documents": 992743,
+  "surface_terms": 3028209,
+  "coordinates": 399609278,
+  "term_document_pairs": 256583876,
+  "mean_coordinates_per_term": 131.96225161473333,
+  "mean_coordinates_per_pair": 1.5574216284736457,
+  "seconds": 112.10408840001037
+}

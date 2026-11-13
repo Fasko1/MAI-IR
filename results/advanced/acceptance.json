@@ -1,0 +1,38 @@
+{
+  "full_result_lists": 46,
+  "hashes": {
+    "raw/False": "ff90aded2963292a5b6e46d10f6c067f865cc39cdb05b48533592a8e2b6fa6cf",
+    "raw/True": "1a76e92f8fe87c396a4e6ccef434d9a2632f7bbe90e4bb1f2c2b4f3dae46e0fa",
+    "index/False": "ff90aded2963292a5b6e46d10f6c067f865cc39cdb05b48533592a8e2b6fa6cf",
+    "index/True": "1a76e92f8fe87c396a4e6ccef434d9a2632f7bbe90e4bb1f2c2b4f3dae46e0fa"
+  },
+  "lossless": true,
+  "quote_verified_original_documents": 50,
+  "http": [
+    {
+      "query": "компьютер && процессор",
+      "mode": "boolean",
+      "seconds": 37.59637689999363,
+      "passed": true
+    },
+    {
+      "query": "компьютер && процессор",
+      "mode": "ranked",
+      "seconds": 0.13588000000163447,
+      "passed": true
+    },
+    {
+      "query": "\"искусственный интеллект\"",
+      "mode": "boolean",
+      "seconds": 0.2930285000038566,
+      "passed": true
+    },
+    {
+      "query": "\"искусственный неизвестнословоxyz интеллект\"",
+      "mode": "boolean",
+      "seconds": 0.006013399994117208,
+      "passed": true
+    }
+  ],
+  "passed": true
+}

@@ -1,0 +1,1244 @@
+[
+  {
+    "query_id": "q1",
+    "query": "нейроны",
+    "count": 17435,
+    "total": 17435,
+    "offset": 0,
+    "results": [
+      {
+        "id": "473402",
+        "title": "Учёные создали полнофункциональные нейроны из кожи мышей.",
+        "url": "https://www.computerra.ru/221450/uchyonyie-sozdali-polnofunktsionalnyie-neyronyi-iz-kozhi-myishey/",
+        "score": 0.3626528647325557
+      },
+      {
+        "id": "249401",
+        "title": "Первая искусственная нейронная сеть появится в уральском вузе к лету 2017 года.",
+        "url": "https://www.computerra.ru/188079/pervaya-iskusstvennaya-neyronnaya-set/",
+        "score": 0.3185710971009891
+      },
+      {
+        "id": "549216",
+        "title": "Новый процессор от Baidu улучшит работу искусственного интеллекта",
+        "url": "https://www.computerra.ru/247273/novyj-protsessor-ot-baidu-uluchshit-rabotu-iskusstvennogo-intellekta/",
+        "score": 0.3167456197414845
+      },
+      {
+        "id": "40019",
+        "title": "Нейроморфный компьютер получил 50 миллионов нейронов",
+        "url": "https://www.techinsider.ru/technologies/news-628283-neyromorfnyy-kompyuter-poluchil-50-millionov-neyronov/",
+        "score": 0.31166319405415616
+      },
+      {
+        "id": "106201",
+        "title": "Крошечные организмы: 11 удивительных фотографий микромира",
+        "url": "https://www.techinsider.ru/science/238746-11-luchshikh-fotografiy-pod-mikroskopom/",
+        "score": 0.31124055337213963
+      },
+      {
+        "id": "255907",
+        "title": "ДИТ Москвы совместно со столичным департаментом здравоохранения разрабатывает алгоритм диагностики рака легких",
+        "url": "https://www.computerra.ru/188683/dit-moskvy-sovmestno-so-stolichnym-dep/",
+        "score": 0.3107092367034206
+      },
+      {
+        "id": "58555",
+        "title": "Исследования мозга у червей и людей. Главные новости науки сегодня",
+        "url": "https://www.techinsider.ru/science/1531783-issledovaniya-mozga-u-chervey-i-lyudey-glavnye-novosti-nauki-segodnya/",
+        "score": 0.3091037496047274
+      },
+      {
+        "id": "408351",
+        "title": "Как обучается нейросеть?",
+        "url": "https://www.vokrugsveta.ru/articles/kak-obuchaetsya-neiroset-id906562/",
+        "score": 0.300336989663916
+      },
+      {
+        "id": "196049",
+        "title": "Иммунные «электрики» мозга",
+        "url": "https://www.nkj.ru/archive/articles/39243/",
+        "score": 0.29657932839333945
+      },
+      {
+        "id": "422270",
+        "title": "Посмотрите, как работает нейрон в этом уникальном видеоролике",
+        "url": "https://www.computerra.ru/213471/posmotrite-kak-rabotaet-neyron-v-etom/",
+        "score": 0.29463973079785233
+      }
+    ]
+  },
+  {
+    "query_id": "q2",
+    "query": "нейронов",
+    "count": 17435,
+    "total": 17435,
+    "offset": 0,
+    "results": [
+      {
+        "id": "473402",
+        "title": "Учёные создали полнофункциональные нейроны из кожи мышей.",
+        "url": "https://www.computerra.ru/221450/uchyonyie-sozdali-polnofunktsionalnyie-neyronyi-iz-kozhi-myishey/",
+        "score": 0.3626528647325557
+      },
+      {
+        "id": "249401",
+        "title": "Первая искусственная нейронная сеть появится в уральском вузе к лету 2017 года.",
+        "url": "https://www.computerra.ru/188079/pervaya-iskusstvennaya-neyronnaya-set/",
+        "score": 0.3185710971009891
+      },
+      {
+        "id": "549216",
+        "title": "Новый процессор от Baidu улучшит работу искусственного интеллекта",
+        "url": "https://www.computerra.ru/247273/novyj-protsessor-ot-baidu-uluchshit-rabotu-iskusstvennogo-intellekta/",
+        "score": 0.3167456197414845
+      },
+      {
+        "id": "40019",
+        "title": "Нейроморфный компьютер получил 50 миллионов нейронов",
+        "url": "https://www.techinsider.ru/technologies/news-628283-neyromorfnyy-kompyuter-poluchil-50-millionov-neyronov/",
+        "score": 0.31166319405415616
+      },
+      {
+        "id": "106201",
+        "title": "Крошечные организмы: 11 удивительных фотографий микромира",
+        "url": "https://www.techinsider.ru/science/238746-11-luchshikh-fotografiy-pod-mikroskopom/",
+        "score": 0.31124055337213963
+      },
+      {
+        "id": "255907",
+        "title": "ДИТ Москвы совместно со столичным департаментом здравоохранения разрабатывает алгоритм диагностики рака легких",
+        "url": "https://www.computerra.ru/188683/dit-moskvy-sovmestno-so-stolichnym-dep/",
+        "score": 0.3107092367034206
+      },
+      {
+        "id": "58555",
+        "title": "Исследования мозга у червей и людей. Главные новости науки сегодня",
+        "url": "https://www.techinsider.ru/science/1531783-issledovaniya-mozga-u-chervey-i-lyudey-glavnye-novosti-nauki-segodnya/",
+        "score": 0.3091037496047274
+      },
+      {
+        "id": "408351",
+        "title": "Как обучается нейросеть?",
+        "url": "https://www.vokrugsveta.ru/articles/kak-obuchaetsya-neiroset-id906562/",
+        "score": 0.300336989663916
+      },
+      {
+        "id": "196049",
+        "title": "Иммунные «электрики» мозга",
+        "url": "https://www.nkj.ru/archive/articles/39243/",
+        "score": 0.29657932839333945
+      },
+      {
+        "id": "422270",
+        "title": "Посмотрите, как работает нейрон в этом уникальном видеоролике",
+        "url": "https://www.computerra.ru/213471/posmotrite-kak-rabotaet-neyron-v-etom/",
+        "score": 0.29463973079785233
+      }
+    ]
+  },
+  {
+    "query_id": "q3",
+    "query": "генетические исследования",
+    "count": 182700,
+    "total": 182700,
+    "offset": 0,
+    "results": [
+      {
+        "id": "298778",
+        "title": "Президент РАН Александр Сергеев о генетических научных исследованиях",
+        "url": "https://scientificrussia.ru/articles/prezident-ran-aleksandr-sergeev-o-geneticeskih-naucnyh-issledovaniah",
+        "score": 0.27435571946387693
+      },
+      {
+        "id": "362592",
+        "title": "Владимир Путин о развитии генетических технологий в России",
+        "url": "https://scientificrussia.ru/articles/vladimir-putin-o-razvitii-geneticheskih-tehnologij-v-rossii",
+        "score": 0.2657829652380767
+      },
+      {
+        "id": "658693",
+        "title": "Стресс-тестирование ковриков для мышек",
+        "url": "https://3dnews.ru/555903/page-1.html",
+        "score": 0.2636466093745509
+      },
+      {
+        "id": "116920",
+        "title": "Генетическая перепись населения США",
+        "url": "https://www.techinsider.ru/science/news-406232-geneticheskaya-perepis-naseleniya-ssha/",
+        "score": 0.2550160825967704
+      },
+      {
+        "id": "819453",
+        "title": "Новая технология выявляет полезные генетические конструкции в организме",
+        "url": "https://hightech.fm/2021/02/20/technology-human-cells",
+        "score": 0.2445071134691412
+      },
+      {
+        "id": "226417",
+        "title": "В России создадут базу генетических данных россиян. На это уйдёт несколько лет",
+        "url": "https://trashbox.ru/link/2020-06-06-russia-genetic-database",
+        "score": 0.24022445887955368
+      },
+      {
+        "id": "587723",
+        "title": "В Японии разрешили генетически модифицировать яйцеклетку человека",
+        "url": "https://hightech.fm/2016/04/28/japan_approves_gene_editing",
+        "score": 0.23869242314063743
+      },
+      {
+        "id": "731613",
+        "title": "The Washington Post: практически любой желающий может найти своих родственников по открытым базам ДНК",
+        "url": "https://hightech.fm/2018/10/12/gene-2",
+        "score": 0.22882554317515685
+      },
+      {
+        "id": "207645",
+        "title": "Академик Александр Габибов: Ученые ИБХ РАН изучают генетические особенности пациентов, переболевших COVID-19",
+        "url": "https://scientificrussia.ru/articles/akademik-aleksandr-gabibov-ucenye-ibh-ran-izucaut-geneticeskuu-predraspolozennost-k-koronavirusu",
+        "score": 0.2254826432920701
+      },
+      {
+        "id": "297590",
+        "title": "Правительство России продлило реализацию программы развития генетических технологий до 2030 года",
+        "url": "https://scientificrussia.ru/articles/pravitelstvo-rossii-prodlilo-realizaciu-programmy-razvitia-geneticeskih-tehnologij-do-2030-goda",
+        "score": 0.2230039377568002
+      }
+    ]
+  },
+  {
+    "query_id": "q4",
+    "query": "клетки",
+    "count": 33713,
+    "total": 33713,
+    "offset": 0,
+    "results": [
+      {
+        "id": "205992",
+        "title": "Ответы и решения. Математические досуги",
+        "url": "https://www.nkj.ru/archive/articles/44654/",
+        "score": 0.40788171500421866
+      },
+      {
+        "id": "211361",
+        "title": "Математические досуги. Декабрь 2021 № 12",
+        "url": "https://www.nkj.ru/archive/articles/42681/",
+        "score": 0.40247602420704987
+      },
+      {
+        "id": "205806",
+        "title": "Математические досуги",
+        "url": "https://www.nkj.ru/archive/articles/43676/",
+        "score": 0.3239533202325926
+      },
+      {
+        "id": "525894",
+        "title": "Какие клетки человека не делятся?",
+        "url": "https://www.vokrugsveta.ru/articles/kakie-kletki-celoveka-ne-delyatsya-191514-id616834/",
+        "score": 0.31134484384510264
+      },
+      {
+        "id": "191089",
+        "title": "Ответы и решения. Математические досуги",
+        "url": "https://www.nkj.ru/archive/articles/43203/",
+        "score": 0.2865294475614678
+      },
+      {
+        "id": "316305",
+        "title": "В России создают виртуальную клетку человека: она ускорит процесс поиска лекарств",
+        "url": "https://trashbox.ru/link/2024-07-31-virtualnaya-kletka",
+        "score": 0.2826967782332551
+      },
+      {
+        "id": "415507",
+        "title": "Создана синтетическая ткань, клетки которой обмениваются информацией",
+        "url": "https://hightech.fm/2016/04/06/synthetic-tissue",
+        "score": 0.26265122010232733
+      },
+      {
+        "id": "106201",
+        "title": "Крошечные организмы: 11 удивительных фотографий микромира",
+        "url": "https://www.techinsider.ru/science/238746-11-luchshikh-fotografiy-pod-mikroskopom/",
+        "score": 0.26190869112802595
+      },
+      {
+        "id": "282002",
+        "title": "Новые «умные клетки» в будущем смогут лечить болезни",
+        "url": "https://scientificrussia.ru/articles/novye-umnye-kletkik-v-budushchem-smogut-lechit-bolezni",
+        "score": 0.2553959726809279
+      },
+      {
+        "id": "665780",
+        "title": "Ученые смогли из клеток кожи получить клетки мозга",
+        "url": "https://hightech.fm/2017/04/26/microglia",
+        "score": 0.2525760009002552
+      }
+    ]
+  },
+  {
+    "query_id": "q5",
+    "query": "клеток",
+    "count": 24529,
+    "total": 24529,
+    "offset": 0,
+    "results": [
+      {
+        "id": "669203",
+        "title": "Ученые впервые получили клетки крови из стволовых клеток человека",
+        "url": "https://hightech.fm/2017/05/18/blood-cells",
+        "score": 0.2747153087756105
+      },
+      {
+        "id": "755719",
+        "title": "Искусственные лимфоциты в 6 раз ускорят производство клеток для иммунотерапии",
+        "url": "https://hightech.fm/2019/04/22/immunotherapies",
+        "score": 0.26946484749012495
+      },
+      {
+        "id": "412274",
+        "title": "Ученые сосчитали все клетки в теле человека и нашли удивительную математическую закономерность",
+        "url": "https://www.vokrugsveta.ru/articles/uchenye-soschitali-vse-kletki-v-tele-cheloveka-i-nashli-udivitelnuyu-matematicheskuyu-zakonomernost-id910308/",
+        "score": 0.25422917883891477
+      },
+      {
+        "id": "797616",
+        "title": "В ОАЭ испытали лечение COVID-19 с помощью стволовых клеток",
+        "url": "https://hightech.fm/2020/05/04/covid-cells",
+        "score": 0.2474459885452914
+      },
+      {
+        "id": "344919",
+        "title": "Ученые выясняют, какие здоровые клетки превращаются в раковые",
+        "url": "https://scientificrussia.ru/articles/uchenye-vyyasnyayut-kakie-zdorovye-kletki-prevrashchayutsya-v-rakovye",
+        "score": 0.246397139145474
+      },
+      {
+        "id": "146696",
+        "title": "Ученые создали транзистор для живых клеток",
+        "url": "https://hi-news.ru/technology/uchenye-sozdali-tranzistor-dlya-zhivyx-kletok.html",
+        "score": 0.24468453432053303
+      },
+      {
+        "id": "728246",
+        "title": "Что происходит с клетками при ожоге?",
+        "url": "https://www.vokrugsveta.ru/articles/cto-proisxodit-s-kletkami-pri-ozoge-226456-id616912/",
+        "score": 0.2430362017550124
+      },
+      {
+        "id": "74465",
+        "title": "Ученые подсчитали количество клеток в теле человека и обнаружили неожиданную закономерность",
+        "url": "https://www.techinsider.ru/science/1613685-uchenye-podschitali-kolichestvo-kletok-v-tele-cheloveka-i-obnarujili-neojidannuyu-zakonomernost/",
+        "score": 0.2401933793689548
+      },
+      {
+        "id": "683510",
+        "title": "Странная математическая закономерность обнаружена в клетках человеческого тела",
+        "url": "https://www.securitylab.ru/news/541915.php",
+        "score": 0.23555922219360803
+      },
+      {
+        "id": "128654",
+        "title": "Клеточная механика",
+        "url": "https://ru.wikipedia.org/wiki/%D0%9A%D0%BB%D0%B5%D1%82%D0%BE%D1%87%D0%BD%D0%B0%D1%8F_%D0%BC%D0%B5%D1%85%D0%B0%D0%BD%D0%B8%D0%BA%D0%B0",
+        "score": 0.23336314330245006
+      }
+    ]
+  },
+  {
+    "query_id": "q6",
+    "query": "программирование",
+    "count": 8371,
+    "total": 8371,
+    "offset": 0,
+    "results": [
+      {
+        "id": "503027",
+        "title": "Учим C++ 4.8.1",
+        "url": "https://trashbox.ru/link/learn-cpp-android",
+        "score": 0.3995218449278813
+      },
+      {
+        "id": "381367",
+        "title": "Российский образовательный проект получил грант от Google.",
+        "url": "https://www.computerra.ru/203632/rossiyskiy-obrazovatelnyiy-proekt-poluchil-grant-ot-google/",
+        "score": 0.34672854809016
+      },
+      {
+        "id": "309742",
+        "title": "Mail.Ru Group и Stepic.org запускают бесплатные онлайн-курсы для ИТ-специалистов.",
+        "url": "https://www.computerra.ru/194541/mail-ru-group-i-stepic-org-zapuskayut-besplatnyie-onlayn-kursyi-dlya-it-spetsialistov/",
+        "score": 0.32131605139160285
+      },
+      {
+        "id": "503086",
+        "title": "Изучите Python 4.2.82",
+        "url": "https://trashbox.ru/link/learn-python-android",
+        "score": 0.31960984057129965
+      },
+      {
+        "id": "746424",
+        "title": "Российские школьники начнут изучать программирование с первого класса",
+        "url": "https://hightech.fm/2019/02/07/school-programms",
+        "score": 0.3191316077983199
+      },
+      {
+        "id": "518652",
+        "title": "Mimo – научитесь программировать 9.35",
+        "url": "https://trashbox.ru/link/mimo-android",
+        "score": 0.3103614840416056
+      },
+      {
+        "id": "266582",
+        "title": "Участникам Russian AI Cup 2016 предложат создать стратегию для онлайн-игры.",
+        "url": "https://www.computerra.ru/189806/uchastnikam-russian-ai-cup-2016-predlozhat-sozdat-str/",
+        "score": 0.30216070391867533
+      },
+      {
+        "id": "950218",
+        "title": "В России создали Федерацию спортивного программирования",
+        "url": "https://www.ixbt.com/news/2022/06/16/v-rossii-sozdali-federaciju-sportivnogo-programmirovanija.html",
+        "score": 0.29804537854551244
+      },
+      {
+        "id": "558023",
+        "title": "Programming Hub 5.2.62",
+        "url": "https://trashbox.ru/link/programming-hub-android",
+        "score": 0.29788977000717537
+      },
+      {
+        "id": "720112",
+        "title": "Рейтинг: самые популярные языки программирования 2018 года",
+        "url": "https://hightech.fm/2018/09/04/java",
+        "score": 0.2847927811049672
+      }
+    ]
+  },
+  {
+    "query_id": "q7",
+    "query": "работники",
+    "count": 12192,
+    "total": 12192,
+    "offset": 0,
+    "results": [
+      {
+        "id": "240005",
+        "title": "Газета The Times сообщила об обнаружении на одном из русскоязычных сайтов для хакеров списка логинов и паролей",
+        "url": "https://www.computerra.ru/187295/gazeta-the-times-soobshhila-ob-obnaruzhenii-na-o/",
+        "score": 0.3040736185835676
+      },
+      {
+        "id": "302291",
+        "title": "Общественная палата предлагает запретить общение в соцсетях в рабочее время",
+        "url": "https://www.computerra.ru/193660/obshhestvennaya-palata-predlagaet-zapretit-obshhenie-v-sotssetyah-v-rabochee-vremya/",
+        "score": 0.301933107656918
+      },
+      {
+        "id": "383105",
+        "title": "PwC сравнила отличия информационной безопасности в России с другими странами.",
+        "url": "https://www.computerra.ru/203941/pwc-otsenila-otlichiya-informatsionnoy-bezopasnosti-v-rossii-s-drugimi-stranami/",
+        "score": 0.30179271570398797
+      },
+      {
+        "id": "473226",
+        "title": "Amazon отследит нажатия на клавиатуру и движения мыши на компьютерах сотрудников",
+        "url": "https://www.securitylab.ru/news/523406.php",
+        "score": 0.2893699186195593
+      },
+      {
+        "id": "798566",
+        "title": "Правительство Японии внесет поправки в закон о защите информации",
+        "url": "https://www.securitylab.ru/news/311196.php",
+        "score": 0.2717264576292667
+      },
+      {
+        "id": "980130",
+        "title": "Хаос в Twitter продолжается: сотни сотрудников соцсети ответили на ультиматум Маска желанием уволиться, а сам он уговаривает других работников остаться",
+        "url": "https://www.ixbt.com/news/2022/11/18/haos-v-twitter-prodolzhaetsja-sotni-sotrudnikov-socseti-otvetili-na-ultimatum-maska-zhelaniem-uvolitsja-a-sam-mask.html",
+        "score": 0.2707107370102626
+      },
+      {
+        "id": "912064",
+        "title": "Cisco: Работодатели больше опасаются инсайдеров, чем хакеров",
+        "url": "https://www.securitylab.ru/news/363042.php",
+        "score": 0.2690399833039631
+      },
+      {
+        "id": "633725",
+        "title": "В компании XEROX произошла крупная утечка информации",
+        "url": "https://www.securitylab.ru/news/290268.php",
+        "score": 0.26752404192725043
+      },
+      {
+        "id": "269982",
+        "title": "До конца года MediaTek расширит свой штат на 2000 сотрудников",
+        "url": "https://www.ixbt.com/news/2015/05/28/do-konca-goda-mediatek-rasshirit-svoj-shtat-na-2000-sotrudnikov.html",
+        "score": 0.2660239813033873
+      },
+      {
+        "id": "842433",
+        "title": "ChatGPT повышает производительность людей и качество их работы",
+        "url": "https://4pda.to/2023/07/22/415763/chatgpt_povyshaet_proizvoditelnost_lyudej_i_kachestvo_ikh_raboty/",
+        "score": 0.2580720079400829
+      }
+    ]
+  },
+  {
+    "query_id": "q8",
+    "query": "свет",
+    "count": 83978,
+    "total": 83978,
+    "offset": 0,
+    "results": [
+      {
+        "id": "390836",
+        "title": "Тест: человек или остров?",
+        "url": "https://www.vokrugsveta.ru/articles/test-chelovek-ili-ostrov-id656310/",
+        "score": 0.3301214702268899
+      },
+      {
+        "id": "676954",
+        "title": "Тест на время",
+        "url": "https://www.vokrugsveta.ru/articles/test-na-vremya-id686883/",
+        "score": 0.3228013436596259
+      },
+      {
+        "id": "107277",
+        "title": "621,35 грамма: самый большой алмаз в мире",
+        "url": "https://www.techinsider.ru/science/243652-621-35-gramma-samyy-bolshoy-almaz-v-mire/",
+        "score": 0.2587789216664817
+      },
+      {
+        "id": "451528",
+        "title": "Тест: какой вид спорта вам подойдет?",
+        "url": "https://www.vokrugsveta.ru/articles/test-kakoi-vid-sporta-vam-podoidet-id828506/",
+        "score": 0.24118194303598356
+      },
+      {
+        "id": "50015",
+        "title": "Извержения вулканов зависят от уровня мирового океана. Главные новости 3 августа",
+        "url": "https://www.techinsider.ru/science/730233-izverzheniya-vulkanov-zavisyat-ot-urovnya-mirovogo-okeana-glavnye-novosti-3-avgusta/",
+        "score": 0.23898473097017664
+      },
+      {
+        "id": "623622",
+        "title": "Тест: какая вы река?",
+        "url": "https://www.vokrugsveta.ru/articles/test-kakaya-vy-reka-id826732/",
+        "score": 0.23794274073747004
+      },
+      {
+        "id": "576734",
+        "title": "Run and Stop Challenge 0.7",
+        "url": "https://trashbox.ru/link/run-and-stop-challenge-android",
+        "score": 0.23588183880292368
+      },
+      {
+        "id": "16340",
+        "title": "Почему снег белый, хотя снежинки прозрачные?",
+        "url": "https://www.techinsider.ru/science/54250-pochemu-sneg-belyy-khotya-snezhinki-prozrachny/",
+        "score": 0.23150884108397152
+      },
+      {
+        "id": "680145",
+        "title": "«Вокруг света» дарит скидку на подписку к Новому году",
+        "url": "https://www.vokrugsveta.ru/articles/vokrug-sveta-darit-skidku-na-podpisku-k-novomu-godu-id696342/",
+        "score": 0.22650806636879123
+      },
+      {
+        "id": "456497",
+        "title": "Тест: ответьте на 5 вопросов, и мы расскажем, какая эпоха вам подходит",
+        "url": "https://www.vokrugsveta.ru/articles/test-otvette-na-5-voprosov-i-my-rasskazhem-kakaya-epokha-vam-podkhodit-id728119/",
+        "score": 0.22264602277095982
+      }
+    ]
+  },
+  {
+    "query_id": "q9",
+    "query": "света",
+    "count": 83978,
+    "total": 83978,
+    "offset": 0,
+    "results": [
+      {
+        "id": "390836",
+        "title": "Тест: человек или остров?",
+        "url": "https://www.vokrugsveta.ru/articles/test-chelovek-ili-ostrov-id656310/",
+        "score": 0.3301214702268899
+      },
+      {
+        "id": "676954",
+        "title": "Тест на время",
+        "url": "https://www.vokrugsveta.ru/articles/test-na-vremya-id686883/",
+        "score": 0.3228013436596259
+      },
+      {
+        "id": "107277",
+        "title": "621,35 грамма: самый большой алмаз в мире",
+        "url": "https://www.techinsider.ru/science/243652-621-35-gramma-samyy-bolshoy-almaz-v-mire/",
+        "score": 0.2587789216664817
+      },
+      {
+        "id": "451528",
+        "title": "Тест: какой вид спорта вам подойдет?",
+        "url": "https://www.vokrugsveta.ru/articles/test-kakoi-vid-sporta-vam-podoidet-id828506/",
+        "score": 0.24118194303598356
+      },
+      {
+        "id": "50015",
+        "title": "Извержения вулканов зависят от уровня мирового океана. Главные новости 3 августа",
+        "url": "https://www.techinsider.ru/science/730233-izverzheniya-vulkanov-zavisyat-ot-urovnya-mirovogo-okeana-glavnye-novosti-3-avgusta/",
+        "score": 0.23898473097017664
+      },
+      {
+        "id": "623622",
+        "title": "Тест: какая вы река?",
+        "url": "https://www.vokrugsveta.ru/articles/test-kakaya-vy-reka-id826732/",
+        "score": 0.23794274073747004
+      },
+      {
+        "id": "576734",
+        "title": "Run and Stop Challenge 0.7",
+        "url": "https://trashbox.ru/link/run-and-stop-challenge-android",
+        "score": 0.23588183880292368
+      },
+      {
+        "id": "16340",
+        "title": "Почему снег белый, хотя снежинки прозрачные?",
+        "url": "https://www.techinsider.ru/science/54250-pochemu-sneg-belyy-khotya-snezhinki-prozrachny/",
+        "score": 0.23150884108397152
+      },
+      {
+        "id": "680145",
+        "title": "«Вокруг света» дарит скидку на подписку к Новому году",
+        "url": "https://www.vokrugsveta.ru/articles/vokrug-sveta-darit-skidku-na-podpisku-k-novomu-godu-id696342/",
+        "score": 0.22650806636879123
+      },
+      {
+        "id": "456497",
+        "title": "Тест: ответьте на 5 вопросов, и мы расскажем, какая эпоха вам подходит",
+        "url": "https://www.vokrugsveta.ru/articles/test-otvette-na-5-voprosov-i-my-rasskazhem-kakaya-epokha-vam-podkhodit-id728119/",
+        "score": 0.22264602277095982
+      }
+    ]
+  },
+  {
+    "query_id": "q10",
+    "query": "машины",
+    "count": 77371,
+    "total": 77371,
+    "offset": 0,
+    "results": [
+      {
+        "id": "15151",
+        "title": "Американская бронемашина будет уворачиваться от cнарядов: видео",
+        "url": "https://www.techinsider.ru/technologies/47175-amerikanskaya-bronemashina-budet-uvorachivatsya-ot-cnaryadov-video/",
+        "score": 0.3612691176017385
+      },
+      {
+        "id": "479342",
+        "title": "Hook Master 0.0.4",
+        "url": "https://trashbox.ru/link/hook-master-android",
+        "score": 0.29874177181060424
+      },
+      {
+        "id": "414618",
+        "title": "Terminator: Salvation – рождение спасителя",
+        "url": "https://3dnews.ru/575103",
+        "score": 0.29246158597435273
+      },
+      {
+        "id": "451792",
+        "title": "Ferrari GT Evolution 1.0",
+        "url": "https://trashbox.ru/link/ferrari-gt-evolution-symbian",
+        "score": 0.27397656498388306
+      },
+      {
+        "id": "590363",
+        "title": "Симулятор вождения 3D 1.0",
+        "url": "https://trashbox.ru/link/simulyator-vozhdeniya-3d-android",
+        "score": 0.24660198132132952
+      },
+      {
+        "id": "291499",
+        "title": "Veeam Software представила Direct Restore для Microsoft Azure.",
+        "url": "https://www.computerra.ru/192534/veeam-software-predstavila-direct-restore-dlya-microsoft-azure/",
+        "score": 0.24377954968779947
+      },
+      {
+        "id": "475538",
+        "title": "Siemens хочет превратить автомобили в «компьютеры на колёсах».",
+        "url": "https://www.computerra.ru/221635/siemens-hochet-prevratit-avtomobili-v-kompyuteryi-na-kolyosah/",
+        "score": 0.23796279861444689
+      },
+      {
+        "id": "69273",
+        "title": "Проверим, как у вас с пространственным мышлением! Помогите расчистить затор на перекрестке",
+        "url": "https://www.techinsider.ru/popmem/1583395-pomogite-raschistit-zator-na-perekrestke-vam-nuzhno-ubrat-lish-odnu-mashinu/",
+        "score": 0.23591986956706892
+      },
+      {
+        "id": "274905",
+        "title": "ВПК создала бронеавтомобиль, которым можно управлять с мобильного телефона.",
+        "url": "https://www.computerra.ru/190610/vpk-sozdala-broneavtomobil-kotorym/",
+        "score": 0.23329376012796332
+      },
+      {
+        "id": "807695",
+        "title": "В Политехнический музей будет передана одна из последних сохранившихся ЕС ЭВМ",
+        "url": "https://habr.com/ru/articles/909434/",
+        "score": 0.23028534629180517
+      }
+    ]
+  },
+  {
+    "query_id": "q11",
+    "query": "космический телескоп",
+    "count": 59521,
+    "total": 59521,
+    "offset": 0,
+    "results": [
+      {
+        "id": "279506",
+        "title": "Систему связи с дальностью в миллионы километров создадут в РФ.",
+        "url": "https://www.computerra.ru/191055/sistemu-svyazi-s-dalnostyu-v-milliony/",
+        "score": 0.46152437231288906
+      },
+      {
+        "id": "771518",
+        "title": "Посмотрите на полностью собранный космический телескоп Джеймса Уэбба. Он похож на галактическую пушку из «Звездных войн»!",
+        "url": "https://hightech.fm/2019/08/29/dj-ye",
+        "score": 0.3547795681541226
+      },
+      {
+        "id": "986050",
+        "title": "Overclockers.ru: Космический телескоп Хаббл возобновляет работу по наблюдению, но одна камера по-прежнему не работает",
+        "url": "https://overclockers.ru/blog/anykey911/show/48410/kosmicheskij-teleskop-habbl-vozobnovlyaet-rabotu-po-nabljudeniju-no-odna-kamera-po-prezhnemu-ne-rabotaet",
+        "score": 0.351867233336691
+      },
+      {
+        "id": "19902",
+        "title": "Видео: как собирают самый большой в мире космический телескоп",
+        "url": "https://www.techinsider.ru/technologies/236106-video-kak-sobirayut-samyy-bolshoy-v-mire-kosmicheskiy-teleskop/",
+        "score": 0.3412833732037984
+      },
+      {
+        "id": "55734",
+        "title": "Рождественский подарок человечеству: космический телескоп Джеймс Уэбб стартовал с космодрома Куру",
+        "url": "https://www.techinsider.ru/science/news-791043-rozhdestvenskiy-podarok-chelovechestvu-kosmicheskiy-teleskop-dzheyms-uebb-startoval-s-kosmodroma-kuru/",
+        "score": 0.33916219294584
+      },
+      {
+        "id": "178266",
+        "title": "Бюро иностранной научно-технической информации. Апрель 2015 №4. Зонтик для телескопа",
+        "url": "https://www.nkj.ru/archive/articles/26154/",
+        "score": 0.33563568256012183
+      },
+      {
+        "id": "232782",
+        "title": "«Джеймс Уэбб» готовится к запуску",
+        "url": "https://scientificrussia.ru/articles/dzejms-uebb-gotovitsa-k-zapusku",
+        "score": 0.32809475098186236
+      },
+      {
+        "id": "857600",
+        "title": "«Хаббл» вернулся к наблюдениям после нового сбоя в системе ориентации",
+        "url": "https://nplus1.ru/news/2024/05/01/hubble-recovery",
+        "score": 0.32586547979359864
+      },
+      {
+        "id": "144287",
+        "title": "В NASA завершили сборку самого большого космического телескопа",
+        "url": "https://hi-news.ru/technology/v-nasa-zavershili-sborku-samogo-bolshogo-kosmicheskogo-teleskopa.html",
+        "score": 0.3205924018816348
+      },
+      {
+        "id": "145126",
+        "title": "В Китае завершено строительство самого большого телескопа в мире",
+        "url": "https://hi-news.ru/research-development/v-kitae-zaversheno-stroitelstvo-samogo-bolshogo-teleskopa-v-mire.html",
+        "score": 0.31799917871529854
+      }
+    ]
+  },
+  {
+    "query_id": "q12",
+    "query": "космические телескопы",
+    "count": 59521,
+    "total": 59521,
+    "offset": 0,
+    "results": [
+      {
+        "id": "279506",
+        "title": "Систему связи с дальностью в миллионы километров создадут в РФ.",
+        "url": "https://www.computerra.ru/191055/sistemu-svyazi-s-dalnostyu-v-milliony/",
+        "score": 0.46152437231288906
+      },
+      {
+        "id": "771518",
+        "title": "Посмотрите на полностью собранный космический телескоп Джеймса Уэбба. Он похож на галактическую пушку из «Звездных войн»!",
+        "url": "https://hightech.fm/2019/08/29/dj-ye",
+        "score": 0.3547795681541226
+      },
+      {
+        "id": "986050",
+        "title": "Overclockers.ru: Космический телескоп Хаббл возобновляет работу по наблюдению, но одна камера по-прежнему не работает",
+        "url": "https://overclockers.ru/blog/anykey911/show/48410/kosmicheskij-teleskop-habbl-vozobnovlyaet-rabotu-po-nabljudeniju-no-odna-kamera-po-prezhnemu-ne-rabotaet",
+        "score": 0.351867233336691
+      },
+      {
+        "id": "19902",
+        "title": "Видео: как собирают самый большой в мире космический телескоп",
+        "url": "https://www.techinsider.ru/technologies/236106-video-kak-sobirayut-samyy-bolshoy-v-mire-kosmicheskiy-teleskop/",
+        "score": 0.3412833732037984
+      },
+      {
+        "id": "55734",
+        "title": "Рождественский подарок человечеству: космический телескоп Джеймс Уэбб стартовал с космодрома Куру",
+        "url": "https://www.techinsider.ru/science/news-791043-rozhdestvenskiy-podarok-chelovechestvu-kosmicheskiy-teleskop-dzheyms-uebb-startoval-s-kosmodroma-kuru/",
+        "score": 0.33916219294584
+      },
+      {
+        "id": "178266",
+        "title": "Бюро иностранной научно-технической информации. Апрель 2015 №4. Зонтик для телескопа",
+        "url": "https://www.nkj.ru/archive/articles/26154/",
+        "score": 0.33563568256012183
+      },
+      {
+        "id": "232782",
+        "title": "«Джеймс Уэбб» готовится к запуску",
+        "url": "https://scientificrussia.ru/articles/dzejms-uebb-gotovitsa-k-zapusku",
+        "score": 0.32809475098186236
+      },
+      {
+        "id": "857600",
+        "title": "«Хаббл» вернулся к наблюдениям после нового сбоя в системе ориентации",
+        "url": "https://nplus1.ru/news/2024/05/01/hubble-recovery",
+        "score": 0.32586547979359864
+      },
+      {
+        "id": "144287",
+        "title": "В NASA завершили сборку самого большого космического телескопа",
+        "url": "https://hi-news.ru/technology/v-nasa-zavershili-sborku-samogo-bolshogo-kosmicheskogo-teleskopa.html",
+        "score": 0.3205924018816348
+      },
+      {
+        "id": "145126",
+        "title": "В Китае завершено строительство самого большого телескопа в мире",
+        "url": "https://hi-news.ru/research-development/v-kitae-zaversheno-stroitelstvo-samogo-bolshogo-teleskopa-v-mire.html",
+        "score": 0.31799917871529854
+      }
+    ]
+  },
+  {
+    "query_id": "q13",
+    "query": "бензиновый двигатель",
+    "count": 46346,
+    "total": 46346,
+    "offset": 0,
+    "results": [
+      {
+        "id": "967047",
+        "title": "«Остаточная стоимость бензиновых автомобилей, купленных сегодня, будет намного ниже, чем вы думаете». Илон Маск считает, что скоро ДВС уйдут в историю",
+        "url": "https://www.ixbt.com/news/2022/09/13/ostatochnaja-stoimost-benzinovyh-avtomobilej-kuplennyh-segodnja-budet-namnogo-nizhe-chem-vy-dumaete-ilon-mask-schitaet.html",
+        "score": 0.3140600882930719
+      },
+      {
+        "id": "279528",
+        "title": "Россия испытала в Сирии беспилотники с водородными двигателями.",
+        "url": "https://www.computerra.ru/191057/rossiya-ispytala-v-sirii-bespilotniki/",
+        "score": 0.307149625445217
+      },
+      {
+        "id": "762484",
+        "title": "Посмотрите на концепт люксового гибридного беспилотника M Next от BMW",
+        "url": "https://hightech.fm/2019/06/25/m-next-bmw",
+        "score": 0.3023169589429514
+      },
+      {
+        "id": "674308",
+        "title": "Hyundai анонсировала технологию создания «бензиновых электрокаров»",
+        "url": "https://4pda.to/2024/08/31/432045/hyundai_anonsirovala_tekhnologiyu_sozdaniya_benzinovykh_elektrokarov/",
+        "score": 0.288943291677233
+      },
+      {
+        "id": "513831",
+        "title": "Mazda создала бензиновый двигатель дизельного цикла",
+        "url": "https://nplus1.ru/news/2017/08/09/compression",
+        "score": 0.28010493389013685
+      },
+      {
+        "id": "790279",
+        "title": "Великобритания запретит продажу гибридных и бензиновых автомобилей с 2035 года",
+        "url": "https://hightech.fm/2020/02/05/great-britain-cars",
+        "score": 0.27556426400922934
+      },
+      {
+        "id": "588375",
+        "title": "В Британии продажи электромобилей в сентябре выросли на 40%",
+        "url": "https://hightech.fm/2017/10/09/electric-car-september",
+        "score": 0.27483956658005887
+      },
+      {
+        "id": "19316",
+        "title": "Видео: как собирают двигатель V8",
+        "url": "https://www.techinsider.ru/technologies/233465-video-kak-sobirayut-dvigatel-v8/",
+        "score": 0.2746130432906406
+      },
+      {
+        "id": "337270",
+        "title": "Fiat 238",
+        "url": "https://ru.wikipedia.org/wiki/Fiat_238",
+        "score": 0.2664362593067652
+      },
+      {
+        "id": "446179",
+        "title": "Начиная с 2019 года, Volvo будет выпускать только автомобили с гибридными или электрическими двигателями",
+        "url": "https://www.ixbt.com/news/2017/07/05/nachinaja-s-2019-goda-volvo-budet-vypuskat-tolko-avtomobili-s-gibridnymi-ili-jelektricheskimi-dvigateljami.html",
+        "score": 0.25644250200196567
+      }
+    ]
+  },
+  {
+    "query_id": "q14",
+    "query": "бензиновые двигатели",
+    "count": 46346,
+    "total": 46346,
+    "offset": 0,
+    "results": [
+      {
+        "id": "967047",
+        "title": "«Остаточная стоимость бензиновых автомобилей, купленных сегодня, будет намного ниже, чем вы думаете». Илон Маск считает, что скоро ДВС уйдут в историю",
+        "url": "https://www.ixbt.com/news/2022/09/13/ostatochnaja-stoimost-benzinovyh-avtomobilej-kuplennyh-segodnja-budet-namnogo-nizhe-chem-vy-dumaete-ilon-mask-schitaet.html",
+        "score": 0.3140600882930719
+      },
+      {
+        "id": "279528",
+        "title": "Россия испытала в Сирии беспилотники с водородными двигателями.",
+        "url": "https://www.computerra.ru/191057/rossiya-ispytala-v-sirii-bespilotniki/",
+        "score": 0.307149625445217
+      },
+      {
+        "id": "762484",
+        "title": "Посмотрите на концепт люксового гибридного беспилотника M Next от BMW",
+        "url": "https://hightech.fm/2019/06/25/m-next-bmw",
+        "score": 0.3023169589429514
+      },
+      {
+        "id": "674308",
+        "title": "Hyundai анонсировала технологию создания «бензиновых электрокаров»",
+        "url": "https://4pda.to/2024/08/31/432045/hyundai_anonsirovala_tekhnologiyu_sozdaniya_benzinovykh_elektrokarov/",
+        "score": 0.288943291677233
+      },
+      {
+        "id": "513831",
+        "title": "Mazda создала бензиновый двигатель дизельного цикла",
+        "url": "https://nplus1.ru/news/2017/08/09/compression",
+        "score": 0.28010493389013685
+      },
+      {
+        "id": "790279",
+        "title": "Великобритания запретит продажу гибридных и бензиновых автомобилей с 2035 года",
+        "url": "https://hightech.fm/2020/02/05/great-britain-cars",
+        "score": 0.27556426400922934
+      },
+      {
+        "id": "588375",
+        "title": "В Британии продажи электромобилей в сентябре выросли на 40%",
+        "url": "https://hightech.fm/2017/10/09/electric-car-september",
+        "score": 0.27483956658005887
+      },
+      {
+        "id": "19316",
+        "title": "Видео: как собирают двигатель V8",
+        "url": "https://www.techinsider.ru/technologies/233465-video-kak-sobirayut-dvigatel-v8/",
+        "score": 0.2746130432906406
+      },
+      {
+        "id": "337270",
+        "title": "Fiat 238",
+        "url": "https://ru.wikipedia.org/wiki/Fiat_238",
+        "score": 0.2664362593067652
+      },
+      {
+        "id": "446179",
+        "title": "Начиная с 2019 года, Volvo будет выпускать только автомобили с гибридными или электрическими двигателями",
+        "url": "https://www.ixbt.com/news/2017/07/05/nachinaja-s-2019-goda-volvo-budet-vypuskat-tolko-avtomobili-s-gibridnymi-ili-jelektricheskimi-dvigateljami.html",
+        "score": 0.25644250200196567
+      }
+    ]
+  },
+  {
+    "query_id": "q15",
+    "query": "межпланетные корабли",
+    "count": 29599,
+    "total": 29599,
+    "offset": 0,
+    "results": [
+      {
+        "id": "58839",
+        "title": "NASA и SpaceX показали свои межпланетные ракеты. Главные новости науки сегодня",
+        "url": "https://www.techinsider.ru/technologies/1539423-nasa-i-spacex-pokazali-svoi-mezhplanetnye-rakety-glavnye-novosti-nauki-segodnya/",
+        "score": 0.5308147653854188
+      },
+      {
+        "id": "215803",
+        "title": "Илон Маск и колонизация Марса",
+        "url": "https://nplus1.ru/blog/2016/09/28/martian-chronicles",
+        "score": 0.31266440025104336
+      },
+      {
+        "id": "198003",
+        "title": "Жизнь в космосе, или кто полетит на Марс?",
+        "url": "https://www.nkj.ru/archive/articles/17802/",
+        "score": 0.27774574101230065
+      },
+      {
+        "id": "51692",
+        "title": "Perseverance подтвердил, что в кратере Езеро было озеро. Главные новости за 14 сентября.",
+        "url": "https://www.techinsider.ru/technologies/747483-perseverance-podtverdil-chto-v-kratere-ezero-bylo-ozero-glavnye-novosti-za-14-sentyabrya/",
+        "score": 0.26515005878995723
+      },
+      {
+        "id": "956004",
+        "title": "Дмитрий Рогозин рассказал, какими будут межпланетные космические станции и как будут их собирать",
+        "url": "https://www.ixbt.com/news/2022/07/16/dmitrij-rogozin-rasskazal-kakimi-budut-mezhplanetnye-kosmicheskie-stancii-i-kak-budut-ih-sobirat.html",
+        "score": 0.2650879292123731
+      },
+      {
+        "id": "481520",
+        "title": "НАСА даёт добро на создание сверхтяжёлой ракеты.",
+        "url": "https://www.computerra.ru/222112/nasa-dayot-dobro-na-sozdanie-sverhtyazhyoloy-raketyi/",
+        "score": 0.2638269517027011
+      },
+      {
+        "id": "438285",
+        "title": "SpaceX впервые испытала двигатель для межпланетных полетов",
+        "url": "https://nplus1.ru/news/2016/09/26/test-fire",
+        "score": 0.23277253576461204
+      },
+      {
+        "id": "37830",
+        "title": "«Орла» можно будет использовать для полёта к Марсу. Но с оговорками",
+        "url": "https://www.techinsider.ru/technologies/news-606033-orla-mozhno-budet-ispolzovat-dlya-polyota-k-marsu-no-s-ogovorkami/",
+        "score": 0.23162957647515925
+      },
+      {
+        "id": "305481",
+        "title": "В России создали прототип плазменного двигателя для полётов на другие планеты",
+        "url": "https://trashbox.ru/link/2024-04-04-v-rossii-sozdali-prototip-plazmennogo-dvigatelya",
+        "score": 0.23097799041151895
+      },
+      {
+        "id": "652270",
+        "title": "В России создают космическую стиральную машину",
+        "url": "https://www.ixbt.com/news/2019/03/29/v-rossii-sozdajut-kosmicheskuju-stiralnuju-mashinu.html",
+        "score": 0.22812306276150385
+      }
+    ]
+  },
+  {
+    "query_id": "q16",
+    "query": "человекоподобные роботы",
+    "count": 26384,
+    "total": 26384,
+    "offset": 0,
+    "results": [
+      {
+        "id": "18809",
+        "title": "10 необычных человекоподобных роботов",
+        "url": "https://www.techinsider.ru/technologies/231488-10-neobychnykh-chelovekopodobnykh-robotov/",
+        "score": 0.4482270772904524
+      },
+      {
+        "id": "786900",
+        "title": "Китай поставит на учёт всех человекоподобных роботов",
+        "url": "https://3dnews.ru/1142307",
+        "score": 0.44036444998626745
+      },
+      {
+        "id": "825720",
+        "title": "Overclockers.ru: Китайский автопроизводитель BYD в августе покажет своих первых человекоподобных роботов",
+        "url": "https://overclockers.ru/blog/Scorpion81/show/260904/Kitajskij-avtoproizvoditel-BYD-v-avguste-pokazhet-svoih-pervyh-chelovekopodobnyh-robotov",
+        "score": 0.41734103282608254
+      },
+      {
+        "id": "639790",
+        "title": "Overclockers.ru: Продажи человекоподобных роботов в 2025 году составили 7000 единиц",
+        "url": "https://overclockers.ru/blog/Nacvark/show/264592/Prodazhi-chelovekopodobnyh-robotov-v-2025-godu-sostavili-7000-edinic",
+        "score": 0.41513201006304906
+      },
+      {
+        "id": "336692",
+        "title": "«Аватар» в жизни: так выглядит модульный интерфейс для управления роботом",
+        "url": "https://trashbox.ru/link/2025-06-28-capsule-interface",
+        "score": 0.4043163444233647
+      },
+      {
+        "id": "249661",
+        "title": "Overclockers.ru: Tesla запустит массовое производство роботов-гуманоидов с 2026 года",
+        "url": "https://overclockers.ru/blog/Astra_news/show/170025/Tesla-zapustit-massovoe-proizvodstvo-robotov-gumanoidov-s-2026-goda",
+        "score": 0.3845254310673714
+      },
+      {
+        "id": "712665",
+        "title": "Эра человекоподобных роботов началась: за прошлый год в мире было продано 7000 андроидов, а в этом их будет почти в 13 раз больше",
+        "url": "https://3dnews.ru/1148793",
+        "score": 0.37587082021455975
+      },
+      {
+        "id": "365167",
+        "title": "В Японии появилась скорая помощь для роботов",
+        "url": "https://trashbox.ru/link/2026-09-14-skoraya-pomosch-dlya-robotov",
+        "score": 0.37493898678088017
+      },
+      {
+        "id": "772147",
+        "title": "Продажи человекоподобных роботов в Китае взлетят более чем вдвое в этом году — а цены упадут",
+        "url": "https://3dnews.ru/1136140",
+        "score": 0.36668376893154697
+      },
+      {
+        "id": "947337",
+        "title": "Илон Маск назвал дату презентации революционного человекоподобного робота Optimus",
+        "url": "https://www.ixbt.com/news/2022/06/03/ilon-mask-nazval-datu-prezentacii-revoljucionnogo-chelovekopodobnogo-robota-optimus.html",
+        "score": 0.3641579425980151
+      }
+    ]
+  },
+  {
+    "query_id": "q17",
+    "query": "искусственный интеллект",
+    "count": 76101,
+    "total": 76101,
+    "offset": 0,
+    "results": [
+      {
+        "id": "55528",
+        "title": "Искусственный интеллект и мозг. Главные научные новости сегодня",
+        "url": "https://www.techinsider.ru/science/788683-iskusstvennyy-intellekt-i-mozg-glavnye-nauchnye-novosti-segodnya/",
+        "score": 0.6897959493521942
+      },
+      {
+        "id": "500777",
+        "title": "Крестики-нолики 4.5",
+        "url": "https://trashbox.ru/link/krestiki-noliki-gomoku-android",
+        "score": 0.35164926692588044
+      },
+      {
+        "id": "244370",
+        "title": "Роспотребнадзор объявил о планах создать систему по контролю качества продуктов",
+        "url": "https://www.computerra.ru/187668/rospotrebnadzor-obyavil-o-planakh-soz/",
+        "score": 0.3316739469829906
+      },
+      {
+        "id": "789383",
+        "title": "ВЦИОМ: 25% жителей России ничего не знают об искусственном интеллекте",
+        "url": "https://hightech.fm/2020/01/27/ai-russia-vciom",
+        "score": 0.32481871709403765
+      },
+      {
+        "id": "231011",
+        "title": "Доктор технических наук Валерия Грибова: Искусственный интеллект не заменит врача, но поможет ему принять решение",
+        "url": "https://scientificrussia.ru/articles/doktor-tehniceskih-nauk-valeria-gribova-ii-pomogaet-vracam-v-prinatii-resenij",
+        "score": 0.3211837185063718
+      },
+      {
+        "id": "307392",
+        "title": "Объявления на «Авито» начнёт писать искусственный интеллект: технология уже тестируется",
+        "url": "https://trashbox.ru/link/2024-04-26-avito-ai",
+        "score": 0.31791251101903084
+      },
+      {
+        "id": "631740",
+        "title": "Европа запускает единый центр с суперкомпьютерами для стартапов",
+        "url": "https://www.computerra.ru/291436/evropa-zapuskaet-edinyj-tsentr-iskusstvennogo-intellekta-s-superkompyuterami-dlya-startapov/",
+        "score": 0.3135301859254388
+      },
+      {
+        "id": "653552",
+        "title": "Overclockers.ru: Bloomberg: Армия Израиля использует ИИ для планирования ударов",
+        "url": "https://overclockers.ru/blog/Nacvark/show/99305/bloomberg-armiya-izrailya-ispolzuet-ii-dlya-planirovaniya-udarov",
+        "score": 0.31213296303882143
+      },
+      {
+        "id": "987356",
+        "title": "Сбер заработал более 230 млрд от внедрения ИИ в 2022 году",
+        "url": "https://www.ixbt.com/news/2022/12/26/sber-zarabotal-bolee-230-mlrd-ot-vnedrenija-ii-v-2022-godu.html",
+        "score": 0.30416370285083394
+      },
+      {
+        "id": "324893",
+        "title": "Российский медпомощник на базе ИИ поможет правильно выбрать врача",
+        "url": "https://trashbox.ru/link/2024-12-07-ai-medpomoshnik",
+        "score": 0.29671389528838615
+      }
+    ]
+  },
+  {
+    "query_id": "q18",
+    "query": "спутники",
+    "count": 29300,
+    "total": 29300,
+    "offset": 0,
+    "results": [
+      {
+        "id": "65860",
+        "title": "Астрономы открыли редкую экзопланету. Лингвисты прочитали слово на васконском языке. Главные научные новости недели",
+        "url": "https://www.techinsider.ru/science/1567747-astronomy-otkryli-redkuyu-ekzoplanetu-lingvisty-prochitali-slovo-na-vaskonskom-yazyke-glavnye-nauchnye-novosti-nedeli/",
+        "score": 0.4336061552246751
+      },
+      {
+        "id": "367183",
+        "title": "Рынок, созданный за счет китайской космической навигационной системы Beidou, достигнет $4,57 млрд к 2020 году.",
+        "url": "https://www.computerra.ru/201627/ryinok-sozdannyiy-za-schet-kitayskoy-kosmicheskoy-navigatsionnoy-sistemyi-beidou-dostignet-4-57-mlrd-k-2020-godu/",
+        "score": 0.3698334326702532
+      },
+      {
+        "id": "346589",
+        "title": "Airbus Group планирует разработать и построить около 900 спутников для частной компании OneWeb.",
+        "url": "https://www.computerra.ru/199059/airbus-group-planiruet-razrabotat-i-postroit-okolo-900-sputnikov-dlya-chastnoy-kompanii-oneweb/",
+        "score": 0.34909235841811087
+      },
+      {
+        "id": "336486",
+        "title": "В России создали облегчённые солнечные панели.",
+        "url": "https://www.computerra.ru/197703/v-rossii-sozdali-oblegchyonnyie-solnechnyie-paneli/",
+        "score": 0.3348418376142545
+      },
+      {
+        "id": "52188",
+        "title": "Луноход и лунный скафандр для российских космонавтов уже готовят. Главные научные новости сегодняшнего дня",
+        "url": "https://www.techinsider.ru/technologies/752603-lunohod-i-lunnyy-skafandr-dlya-rossiyskih-kosmonavtov-uzhe-gotovyat-glavnye-nauchnye-novosti-segodnyashnego-dnya/",
+        "score": 0.3022681100523807
+      },
+      {
+        "id": "682504",
+        "title": "Спустя месяц SpaceX потеряла связь с тремя из 60 спутников Starlink",
+        "url": "https://www.ixbt.com/news/2019/06/29/spacex-60-starlink.html",
+        "score": 0.3009485726336706
+      },
+      {
+        "id": "346487",
+        "title": "Компания «Ростелеком» сообщила о поддержке мобильным браузером «Спутник» планшетов на платформах Google Android и Apple iOS.",
+        "url": "https://www.computerra.ru/199044/kompaniya-rostelekom-soobshhila-o-podderzhke-mobilnyim-brauzerom-sputnik-planshetov-na-platformah-google-android-i-apple-ios/",
+        "score": 0.2986077662286936
+      },
+      {
+        "id": "281006",
+        "title": "Российские ученые из Института ядерной физики предложили новый метод подзарядки орбитальных спутников связи.",
+        "url": "https://www.computerra.ru/191232/rossiyskie-uchenye-iz-instituta-yadern/",
+        "score": 0.29398450061455855
+      },
+      {
+        "id": "304299",
+        "title": "Российские учёные разработали двигатель для крохотных спутников связи: обещают три года работы на орбите",
+        "url": "https://trashbox.ru/link/2024-03-18-mai-dvigatel-dlya-sputnikov",
+        "score": 0.2930958235466472
+      },
+      {
+        "id": "239336",
+        "title": "Россия и Белоруссия совместно создадут спутник дистанционного зондирования Земли.",
+        "url": "https://www.computerra.ru/187215/rossiya-i-belorussiya-sovmestno-sozdad/",
+        "score": 0.292886518216633
+      }
+    ]
+  }
+]

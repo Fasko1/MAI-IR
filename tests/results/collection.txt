@@ -1,0 +1,36 @@
+..............................................................[retry] Повтор запроса через 5 с: https://example.org
+Восстановление состояния...
+Из сохранённой очереди исключено не-статей: 0
+URL в очереди: 2
+Документов уже сохранено: 100
+[101/200000] https://www.techinsider.ru/science/123/
+[request] Ошибка: DNS failure
+Соединение не восстановилось. Очередь сохранится; повторите запуск позже.
+[skip] Не HTML (image/jpeg): https://example.org/123
+[skip] Не HTML (application/pdf): https://example.org/123
+[skip] Не HTML (нет Content-Type): https://example.org/123
+[retry] Повтор запроса через 5 с: https://example.org
+[retry] Повтор запроса через 10 с: https://example.org
+[parse] Некорректная разметка: https://example.org/123: bad HTML
+Резервная копия очереди: C:\Users\Kirill\AppData\Local\Temp\tmpujhs6_vg\crawler_state.backup-1794590683349338000.pkl
+[retry] Повтор запроса через 5 с: https://example.org
+
+Проверка обновлений: 1 документов
+[update] https://biomolecula.ru/articles/test
+[update] HTTP 200: сравнение содержимого статьи.
+[update] Содержимое не изменилось.
+
+Проверка завершена. Обновлено документов: 0
+
+Проверка обновлений: 1 документов
+[update] https://biomolecula.ru/articles/test
+[update] Документ не изменился (304).
+
+Проверка завершена. Обновлено документов: 0
+ROBOTS elementy: interval 60s
+...RETRY habr HTTP 429; pause 120s
+.......................
+----------------------------------------------------------------------
+Ran 88 tests in 2.092s
+
+OK

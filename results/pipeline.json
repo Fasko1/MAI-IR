@@ -1,0 +1,56 @@
+{
+  "started_at": "2026-11-12T14:18:20.671737+00:00",
+  "documents": 992743,
+  "completed": [
+    {
+      "stage": "tokenization_and_stemming",
+      "seconds": 640.5903752000013
+    },
+    {
+      "stage": "zipf",
+      "seconds": 300.71509169999626
+    },
+    {
+      "stage": "alignment_audit",
+      "seconds": 207.49965749998228
+    },
+    {
+      "stage": "tokenization_benchmark",
+      "seconds": 15.747915899992222
+    },
+    {
+      "stage": "index",
+      "seconds": 310.2968600000022
+    },
+    {
+      "stage": "compression",
+      "seconds": 108.8371736999834
+    },
+    {
+      "stage": "verify_raw",
+      "seconds": 32.01283630001126
+    },
+    {
+      "stage": "verify_packed",
+      "seconds": 29.911680499993963
+    },
+    {
+      "stage": "stemming_quality",
+      "seconds": 0.7145137999905273
+    },
+    {
+      "stage": "ranking_quality",
+      "seconds": 131.67513940000208
+    },
+    {
+      "stage": "compression_benchmark",
+      "seconds": 578.1320376999793
+    },
+    {
+      "stage": "report",
+      "seconds": 10.396079500002088
+    }
+  ],
+  "current": "complete",
+  "finished_at": "2026-11-12T14:57:54.802294+00:00"
+}

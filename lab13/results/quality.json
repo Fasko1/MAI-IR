@@ -1,0 +1,307 @@
+{
+  "scope": "Диагностический закрытый пул отдельно для каждого запроса; не ЛР6 и не оценка всего корпуса",
+  "assessor": "Сохранённая ИИ-разметка исходного проекта, без независимой человеческой проверки",
+  "qrels_source": "lab04\\review_10000\\review_10000.csv",
+  "unique_pool_documents": 30,
+  "queries": 2,
+  "query_document_judgments": 30,
+  "candidate_policy": "explicit OR identical for both modes; full-corpus IDF/norms; ranking filtered to fixed judged pool",
+  "metrics": [
+    {
+      "query_id": "q15",
+      "query": "межпланетные корабли",
+      "mode": "boolean",
+      "k": 1,
+      "judged_documents": 16,
+      "retrieved": 16,
+      "precision": 1.0,
+      "dcg": 1.0,
+      "ndcg": 1.0,
+      "err": 0.5,
+      "ids": [
+        "202"
+      ]
+    },
+    {
+      "query_id": "q15",
+      "query": "межпланетные корабли",
+      "mode": "boolean",
+      "k": 3,
+      "judged_documents": 16,
+      "retrieved": 16,
+      "precision": 0.6666666666666666,
+      "dcg": 1.5,
+      "ndcg": 0.7039180890341347,
+      "err": 0.5833333333333334,
+      "ids": [
+        "202",
+        "2845",
+        "3062"
+      ]
+    },
+    {
+      "query_id": "q15",
+      "query": "межпланетные корабли",
+      "mode": "boolean",
+      "k": 5,
+      "judged_documents": 16,
+      "retrieved": 16,
+      "precision": 0.6,
+      "dcg": 1.9306765580733931,
+      "ndcg": 0.6548086577531307,
+      "err": 0.6145833333333334,
+      "ids": [
+        "202",
+        "2845",
+        "3062",
+        "3158",
+        "3540"
+      ]
+    },
+    {
+      "query_id": "q15",
+      "query": "межпланетные корабли",
+      "mode": "tfidf",
+      "k": 1,
+      "judged_documents": 16,
+      "retrieved": 16,
+      "precision": 1.0,
+      "dcg": 1.0,
+      "ndcg": 1.0,
+      "err": 0.5,
+      "ids": [
+        "8983"
+      ]
+    },
+    {
+      "query_id": "q15",
+      "query": "межпланетные корабли",
+      "mode": "tfidf",
+      "k": 3,
+      "judged_documents": 16,
+      "retrieved": 16,
+      "precision": 1.0,
+      "dcg": 2.1309297535714578,
+      "ndcg": 1.0,
+      "err": 0.6666666666666666,
+      "ids": [
+        "8983",
+        "3062",
+        "3158"
+      ]
+    },
+    {
+      "query_id": "q15",
+      "query": "межпланетные корабли",
+      "mode": "tfidf",
+      "k": 5,
+      "judged_documents": 16,
+      "retrieved": 16,
+      "precision": 0.6,
+      "dcg": 2.1309297535714578,
+      "ndcg": 0.7227265726449519,
+      "err": 0.6666666666666666,
+      "ids": [
+        "8983",
+        "3062",
+        "3158",
+        "9609",
+        "2845"
+      ]
+    },
+    {
+      "query_id": "q16",
+      "query": "человекоподобные роботы",
+      "mode": "boolean",
+      "k": 1,
+      "judged_documents": 14,
+      "retrieved": 14,
+      "precision": 1.0,
+      "dcg": 1.0,
+      "ndcg": 1.0,
+      "err": 0.5,
+      "ids": [
+        "1138"
+      ]
+    },
+    {
+      "query_id": "q16",
+      "query": "человекоподобные роботы",
+      "mode": "boolean",
+      "k": 3,
+      "judged_documents": 14,
+      "retrieved": 14,
+      "precision": 0.6666666666666666,
+      "dcg": 1.6309297535714575,
+      "ndcg": 0.7653606369886217,
+      "err": 0.625,
+      "ids": [
+        "1138",
+        "1256",
+        "1997"
+      ]
+    },
+    {
+      "query_id": "q16",
+      "query": "человекоподобные роботы",
+      "mode": "boolean",
+      "k": 5,
+      "judged_documents": 14,
+      "retrieved": 14,
+      "precision": 0.6,
+      "dcg": 2.0177825608059994,
+      "ndcg": 0.6843515475204855,
+      "err": 0.65,
+      "ids": [
+        "1138",
+        "1256",
+        "1997",
+        "236",
+        "2567"
+      ]
+    },
+    {
+      "query_id": "q16",
+      "query": "человекоподобные роботы",
+      "mode": "tfidf",
+      "k": 1,
+      "judged_documents": 14,
+      "retrieved": 14,
+      "precision": 0.0,
+      "dcg": 0.0,
+      "ndcg": 0.0,
+      "err": 0.0,
+      "ids": [
+        "8432"
+      ]
+    },
+    {
+      "query_id": "q16",
+      "query": "человекоподобные роботы",
+      "mode": "tfidf",
+      "k": 3,
+      "judged_documents": 14,
+      "retrieved": 14,
+      "precision": 0.3333333333333333,
+      "dcg": 0.6309297535714575,
+      "ndcg": 0.2960819109658652,
+      "err": 0.25,
+      "ids": [
+        "8432",
+        "8763",
+        "5457"
+      ]
+    },
+    {
+      "query_id": "q16",
+      "query": "человекоподобные роботы",
+      "mode": "tfidf",
+      "k": 5,
+      "judged_documents": 14,
+      "retrieved": 14,
+      "precision": 0.4,
+      "dcg": 1.0177825608059992,
+      "ndcg": 0.34519134224686937,
+      "err": 0.3,
+      "ids": [
+        "8432",
+        "8763",
+        "5457",
+        "8514",
+        "1256"
+      ]
+    }
+  ],
+  "full_corpus": [
+    {
+      "query_id": "q15",
+      "query": "межпланетные корабли",
+      "results": {
+        "query": "межпланетные корабли",
+        "count": 29599,
+        "total": 29599,
+        "offset": 0,
+        "results": [
+          {
+            "id": "58839",
+            "title": "NASA и SpaceX показали свои межпланетные ракеты. Главные новости науки сегодня",
+            "url": "https://www.techinsider.ru/technologies/1539423-nasa-i-spacex-pokazali-svoi-mezhplanetnye-rakety-glavnye-novosti-nauki-segodnya/",
+            "score": 0.5308147653854188
+          },
+          {
+            "id": "215803",
+            "title": "Илон Маск и колонизация Марса",
+            "url": "https://nplus1.ru/blog/2016/09/28/martian-chronicles",
+            "score": 0.31266440025104336
+          },
+          {
+            "id": "198003",
+            "title": "Жизнь в космосе, или кто полетит на Марс?",
+            "url": "https://www.nkj.ru/archive/articles/17802/",
+            "score": 0.27774574101230065
+          },
+          {
+            "id": "51692",
+            "title": "Perseverance подтвердил, что в кратере Езеро было озеро. Главные новости за 14 сентября.",
+            "url": "https://www.techinsider.ru/technologies/747483-perseverance-podtverdil-chto-v-kratere-ezero-bylo-ozero-glavnye-novosti-za-14-sentyabrya/",
+            "score": 0.26515005878995723
+          },
+          {
+            "id": "956004",
+            "title": "Дмитрий Рогозин рассказал, какими будут межпланетные космические станции и как будут их собирать",
+            "url": "https://www.ixbt.com/news/2022/07/16/dmitrij-rogozin-rasskazal-kakimi-budut-mezhplanetnye-kosmicheskie-stancii-i-kak-budut-ih-sobirat.html",
+            "score": 0.2650879292123731
+          }
+        ]
+      },
+      "judged_at_5": 0,
+      "unjudged_at_5": 5,
+      "precision_at_5_lower_bound": 0.0
+    },
+    {
+      "query_id": "q16",
+      "query": "человекоподобные роботы",
+      "results": {
+        "query": "человекоподобные роботы",
+        "count": 26384,
+        "total": 26384,
+        "offset": 0,
+        "results": [
+          {
+            "id": "18809",
+            "title": "10 необычных человекоподобных роботов",
+            "url": "https://www.techinsider.ru/technologies/231488-10-neobychnykh-chelovekopodobnykh-robotov/",
+            "score": 0.4482270772904524
+          },
+          {
+            "id": "786900",
+            "title": "Китай поставит на учёт всех человекоподобных роботов",
+            "url": "https://3dnews.ru/1142307",
+            "score": 0.44036444998626745
+          },
+          {
+            "id": "825720",
+            "title": "Overclockers.ru: Китайский автопроизводитель BYD в августе покажет своих первых человекоподобных роботов",
+            "url": "https://overclockers.ru/blog/Scorpion81/show/260904/Kitajskij-avtoproizvoditel-BYD-v-avguste-pokazhet-svoih-pervyh-chelovekopodobnyh-robotov",
+            "score": 0.41734103282608254
+          },
+          {
+            "id": "639790",
+            "title": "Overclockers.ru: Продажи человекоподобных роботов в 2025 году составили 7000 единиц",
+            "url": "https://overclockers.ru/blog/Nacvark/show/264592/Prodazhi-chelovekopodobnyh-robotov-v-2025-godu-sostavili-7000-edinic",
+            "score": 0.41513201006304906
+          },
+          {
+            "id": "336692",
+            "title": "«Аватар» в жизни: так выглядит модульный интерфейс для управления роботом",
+            "url": "https://trashbox.ru/link/2025-06-28-capsule-interface",
+            "score": 0.4043163444233647
+          }
+        ]
+      },
+      "judged_at_5": 0,
+      "unjudged_at_5": 5,
+      "precision_at_5_lower_bound": 0.0
+    }
+  ]
+}

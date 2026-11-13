@@ -1,0 +1,11 @@
+{"runner":"C++ CLI","cases":[
+{"id":"T12","status":"PASS","input":"Агент 007 0 00 7 9999 10000 123456789012345678901234567890","expected":["агент", "007", "0", "00", "7", "9999", "10000", "123456789012345678901234567890"],"actual":["агент", "007", "0", "00", "7", "9999", "10000", "123456789012345678901234567890"],"returncode":0,"output_exists":true},
+{"id":"T15","status":"PASS","input":"высокопроизводительный дезоксирибонуклеиновой","expected":["высокопроизводительный", "дезоксирибонуклеиновой"],"actual":["высокопроизводительный", "дезоксирибонуклеиновой"],"returncode":0,"output_exists":true},
+{"id":"T18","status":"PASS","input":"CRISPR COVID-19 GPU","expected":["crispr", "covid-19", "gpu"],"actual":["crispr", "covid-19", "gpu"],"returncode":0,"output_exists":true},
+{"id":"T19","status":"PASS","input":"crispr covid-19 gpu","expected":["CRISPR", "COVID-19", "GPU"],"actual":["CRISPR", "COVID-19", "GPU"],"returncode":0,"output_exists":true},
+{"id":"S04","status":"PASS","input":"чтение\nчтения\nчтению\nчтением\nчитать\nчитает\n","expected":["чтен", "чтен", "чтен", "чтен", "чита", "чита"],"actual":["чтен", "чтен", "чтен", "чтен", "чита", "чита"],"returncode":0,"output_exists":true},
+{"id":"S06","status":"PASS","input":"клетки\nклетка\nнейроны\nнейронов\n","expected":["клетк", "клетк", "нейрон", "нейрон"],"actual":["клетк", "клетк", "нейрон", "нейрон"],"returncode":0,"output_exists":true},
+{"id":"S09","status":"PASS","input":"я\nон\nдом\nся\nсь\n","expected":["я", "он", "дом", "ся", "сь"],"actual":["я", "он", "дом", "ся", "сь"],"returncode":0,"output_exists":true},
+{"id":"S13","status":"PASS","input":"и\nв\nклетки\n","expected":["и", "в", "клетк"],"actual":["и", "в", "клетк"],"returncode":0,"output_exists":true},
+{"id":"S14","status":"PASS","input":"и\nв\nклетки\n","expected":["клетк"],"actual":["клетк"],"returncode":0,"output_exists":true}
+],"summary":{"PASS":9,"FAIL":0,"XFAIL":0,"XPASS":0}}

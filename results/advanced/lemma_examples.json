@@ -1,0 +1,48 @@
+{
+  "source": "data/morphology/provenance.json",
+  "pairs": [
+    {
+      "token": "компьютерами",
+      "lemma": "компьютер"
+    },
+    {
+      "token": "процессорами",
+      "lemma": "процессор"
+    },
+    {
+      "token": "клетки",
+      "lemma": "клетка"
+    },
+    {
+      "token": "клетками",
+      "lemma": "клетка"
+    },
+    {
+      "token": "ёлки",
+      "lemma": "елка"
+    },
+    {
+      "token": "007",
+      "lemma": "007"
+    },
+    {
+      "token": "ВИЧ-1",
+      "lemma": "ВИЧ-1"
+    },
+    {
+      "token": "DNA",
+      "lemma": "DNA"
+    },
+    {
+      "token": "неизвестнословоxyz",
+      "lemma": "неизвестнословоxyz"
+    }
+  ],
+  "counts": {
+    "documents": 1,
+    "tokens": 9,
+    "changed": 5,
+    "forms": 3060103
+  },
+  "passed": true
+}

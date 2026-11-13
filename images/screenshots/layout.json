@@ -1,0 +1,254 @@
+{
+  "lab01_search_biomolecula": {
+    "source": "User attachment.png",
+    "size": [
+      1920,
+      1200
+    ],
+    "crop": [
+      105,
+      110,
+      880,
+      805
+    ],
+    "sha256": "a34e7cf0f77c88c41eea6ceb10f3a7c71fcb4130c13fcd910b96ced757c15466"
+  },
+  "lab01_search_techinsider": {
+    "source": "User attachment1.png",
+    "size": [
+      1920,
+      1200
+    ],
+    "crop": [
+      105,
+      110,
+      880,
+      805
+    ],
+    "sha256": "fb68d5f4b9d62e95292f8df42df89915640a2e8158d745998f865650cd4a76a3"
+  },
+  "lab01_corpus": {
+    "source": "User attachment2.png",
+    "size": [
+      1920,
+      1189
+    ],
+    "crop": [
+      295,
+      94,
+      710,
+      740
+    ],
+    "sha256": "a5d1122e372907ae65b6713ab5c0bce46c898cb0c986654a2a528a9b76cb214c"
+  },
+  "lab02_config": {
+    "source": "User attachment3.png",
+    "size": [
+      1920,
+      1200
+    ],
+    "crop": [
+      360,
+      110,
+      1000,
+      584
+    ],
+    "sha256": "1482334678541ecabf4c9fcf1482283934a571c382badd73f18595e0d70dc5b0"
+  },
+  "lab02_run": {
+    "source": "User attachment4.png",
+    "size": [
+      1493,
+      428
+    ],
+    "crop": [
+      46,
+      40,
+      1170,
+      332
+    ],
+    "sha256": "f45128935d4f72feef8843b6a0831a9f9b87d6e035b3a0b6cb4a025c7b660146"
+  },
+  "lab02_database": {
+    "source": "User attachment5.png",
+    "size": [
+      1697,
+      589
+    ],
+    "crop": [
+      140,
+      202,
+      1050,
+      473
+    ],
+    "sha256": "a38f7f8bad97f90646a6f92d7f0d3e4598f0be882eaacd2d8c13b292586ac173"
+  },
+  "lab02_resume": {
+    "source": "User attachment6.png",
+    "size": [
+      1050,
+      473
+    ],
+    "crop": [
+      25,
+      18,
+      1040,
+      430
+    ],
+    "sha256": "29cbb3bb777150be35fa83cdad6bcfd39a6b2b2688fd371aceb132f97f9c756b"
+  },
+  "lab02_update": {
+    "source": "User attachment7.png",
+    "size": [
+      1322,
+      450
+    ],
+    "crop": [
+      52,
+      60,
+      1040,
+      392
+    ],
+    "sha256": "6def1cef2af9095214ec64c0c8c384cdafb43493afdfc70472c5a5d38fffdaab"
+  },
+  "lab03_tokenization": {
+    "source": "User attachment8.png",
+    "size": [
+      1359,
+      755
+    ],
+    "crop": [
+      290,
+      175,
+      850,
+      595
+    ],
+    "sha256": "acb8a64f4aad406930e45412c8e7a5f035f94eac5148e5379b4e4a029c53f417"
+  },
+  "lab04_stemming": {
+    "source": "User attachment9.png",
+    "size": [
+      1336,
+      650
+    ],
+    "crop": [
+      267,
+      125,
+      820,
+      565
+    ],
+    "sha256": "87197fcd76ec2b1c4427f338d292a9101600542e05d81d6b45629a32ccedccff"
+  },
+  "lab04_lemmatization": {
+    "source": "User attachment10.png",
+    "size": [
+      1192,
+      482
+    ],
+    "crop": [
+      208,
+      96,
+      750,
+      316
+    ],
+    "sha256": "58eb491258a642a14c9151f2c925312583cc5f429d92b2b7eb209cbb882ef952"
+  },
+  "lab08_boolean": {
+    "source": "User attachment11.png",
+    "size": [
+      1920,
+      1200
+    ],
+    "crop": [
+      388,
+      402,
+      1515,
+      1002
+    ],
+    "sha256": "e5e897964f3e6bfcd5bf724cf546b6e2437451e6c81d260fb68366526597d6b4"
+  },
+  "lab13_tfidf": {
+    "source": "User attachment12.png",
+    "size": [
+      1920,
+      1200
+    ],
+    "crop": [
+      388,
+      153,
+      1515,
+      1080
+    ],
+    "sha256": "9f0e2c2546a80ab040764ecea4f6823bcb26978e20608e9983d17717913943f6"
+  },
+  "lab14_snippets": {
+    "source": "User attachment12.png",
+    "size": [
+      1920,
+      1200
+    ],
+    "crop": [
+      415,
+      548,
+      1515,
+      1048
+    ],
+    "sha256": "9f0e2c2546a80ab040764ecea4f6823bcb26978e20608e9983d17717913943f6"
+  },
+  "lab10_phrase": {
+    "source": "User attachment13.png",
+    "size": [
+      1920,
+      1200
+    ],
+    "crop": [
+      388,
+      402,
+      1515,
+      1135
+    ],
+    "sha256": "85167beaecbbc0608b79ae7c2294b7f12add2e676ae75ff4373f2f356e8babfa"
+  },
+  "lab11_compression": {
+    "source": "User attachment14.png",
+    "size": [
+      993,
+      505
+    ],
+    "crop": [
+      136,
+      127,
+      490,
+      235
+    ],
+    "sha256": "41f50c3fb9b64c19304374c584dd4ca479678ce966838924861012201a34ce2c"
+  },
+  "lab12_skips": {
+    "source": "User attachment15.png",
+    "size": [
+      820,
+      453
+    ],
+    "crop": [
+      88,
+      89,
+      550,
+      333
+    ],
+    "sha256": "157abbdc7641d6ebcceeef71e079be5ca5af269fb8535e90af8dd117e9ecd7c3"
+  },
+  "lab17_tests": {
+    "source": "User attachment16.png",
+    "size": [
+      925,
+      514
+    ],
+    "crop": [
+      92,
+      91,
+      540,
+      400
+    ],
+    "sha256": "9d16102cba004e5589f7a247d745391cf2abf90f22b32cf895a920a241244345"
+  }
+}

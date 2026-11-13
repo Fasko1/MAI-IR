@@ -1,0 +1,23 @@
+test_boolean_phrase_composition (__main__.ExtensionTests.test_boolean_phrase_composition) ... ok
+test_coordinate_binding_rejects_changed_document_ids (__main__.ExtensionTests.test_coordinate_binding_rejects_changed_document_ids) ... ok
+test_exact_phrase_no_partial_match (__main__.ExtensionTests.test_exact_phrase_no_partial_match) ... ok
+test_html_is_escaped_before_highlight (__main__.ExtensionTests.test_html_is_escaped_before_highlight) ... ok
+test_lemma_is_dictionary_form_not_stem (__main__.ExtensionTests.test_lemma_is_dictionary_form_not_stem) ... ok
+test_long_snippet_is_bounded_and_keeps_match (__main__.ExtensionTests.test_long_snippet_is_bounded_and_keeps_match) ... ok
+test_occurrences_and_identifiers_preserved (__main__.ExtensionTests.test_occurrences_and_identifiers_preserved) ... ok
+test_persisted_skips_restart_vb_decoder (__main__.ExtensionTests.test_persisted_skips_restart_vb_decoder) ... ok
+test_phrase_against_independent_sequence_oracle (__main__.ExtensionTests.test_phrase_against_independent_sequence_oracle) ... ok
+test_phrase_missing_quotes_report_error (__main__.ExtensionTests.test_phrase_missing_quotes_report_error) ... ok
+test_quote_does_not_replace_wordforms (__main__.ExtensionTests.test_quote_does_not_replace_wordforms) ... ok
+test_ranked_quote_keeps_strict_filter (__main__.ExtensionTests.test_ranked_quote_keeps_strict_filter) ... ok
+test_repeated_terms_require_distinct_positions (__main__.ExtensionTests.test_repeated_terms_require_distinct_positions) ... ok
+test_reversed_order_is_different (__main__.ExtensionTests.test_reversed_order_is_different) ... ok
+test_skip_checksum_rejects_changed_point (__main__.ExtensionTests.test_skip_checksum_rejects_changed_point) ... ok
+test_skips_preserve_complete_results (__main__.ExtensionTests.test_skips_preserve_complete_results) ... ok
+test_snippet_contains_original_text_and_marks (__main__.ExtensionTests.test_snippet_contains_original_text_and_marks) ... ok
+test_unknown_phrase_component_is_not_ignored (__main__.ExtensionTests.test_unknown_phrase_component_is_not_ignored) ... ok
+
+----------------------------------------------------------------------
+Ran 18 tests in 0.812s
+
+OK

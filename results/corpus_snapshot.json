@@ -1,0 +1,113 @@
+{
+  "measured_at_utc": "2026-11-12T14:11:54.015812+00:00",
+  "database_documents": 1008729,
+  "eligible_documents": 992743,
+  "text_bytes": 5247090845,
+  "sources": [
+    {
+      "source": "Overclockers.ru",
+      "documents": 155861,
+      "text_bytes": 583459277
+    },
+    {
+      "source": "iXBT",
+      "documents": 137073,
+      "text_bytes": 531895189
+    },
+    {
+      "source": "Техинсайдер",
+      "documents": 116443,
+      "text_bytes": 522457551
+    },
+    {
+      "source": "SecurityLab",
+      "documents": 64705,
+      "text_bytes": 267049659
+    },
+    {
+      "source": "Trashbox",
+      "documents": 62508,
+      "text_bytes": 197514109
+    },
+    {
+      "source": "3DNews",
+      "documents": 61428,
+      "text_bytes": 703183989
+    },
+    {
+      "source": "Компьютерра",
+      "documents": 48795,
+      "text_bytes": 194596148
+    },
+    {
+      "source": "4PDA",
+      "documents": 48714,
+      "text_bytes": 105491879
+    },
+    {
+      "source": "Хайтек",
+      "documents": 45635,
+      "text_bytes": 181711556
+    },
+    {
+      "source": "N+1",
+      "documents": 43232,
+      "text_bytes": 294988039
+    },
+    {
+      "source": "Hi-News",
+      "documents": 35492,
+      "text_bytes": 238017214
+    },
+    {
+      "source": "CHIP",
+      "documents": 33506,
+      "text_bytes": 150009495
+    },
+    {
+      "source": "Вокруг света",
+      "documents": 32668,
+      "text_bytes": 300247251
+    },
+    {
+      "source": "Википедия (ru)",
+      "documents": 26677,
+      "text_bytes": 205904516
+    },
+    {
+      "source": "Научная Россия",
+      "documents": 25749,
+      "text_bytes": 202528732
+    },
+    {
+      "source": "Наука и жизнь",
+      "documents": 25337,
+      "text_bytes": 236060754
+    },
+    {
+      "source": "Naked Science",
+      "documents": 20222,
+      "text_bytes": 159130053
+    },
+    {
+      "source": "Биомолекула",
+      "documents": 3580,
+      "text_bytes": 80116271
+    },
+    {
+      "source": "Наука из первых рук",
+      "documents": 3109,
+      "text_bytes": 46900441
+    },
+    {
+      "source": "Элементы",
+      "documents": 1438,
+      "text_bytes": 33900661
+    },
+    {
+      "source": "Хабр",
+      "documents": 571,
+      "text_bytes": 11928061
+    }
+  ]
+}

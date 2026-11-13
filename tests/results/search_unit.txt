@@ -1,0 +1,13 @@
+PASS vector_growth
+PASS vector_swap
+PASS hash_growth
+PASS heap_sort
+PASS utf8_validation
+PASS known_hash
+PASS vb_known_vectors
+PASS vb_random_roundtrip
+PASS vb_truncated
+PASS vb_overflow
+PASS vb_noncanonical
+PASS vb_overlong
+RESULT cases=12 checks=227036 failures=0

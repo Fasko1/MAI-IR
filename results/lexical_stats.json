@@ -1,0 +1,14 @@
+{
+  "tokens": {
+    "unique": 3028209,
+    "total": 399609278,
+    "average_unique_length": 11.474495650729523,
+    "average_occurrence_length": 6.131557751269229
+  },
+  "stems": {
+    "unique": 1963565,
+    "total": 399609278,
+    "average_unique_length": 11.725079129033162,
+    "average_occurrence_length": 4.9684290488370495
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "documents": 992743,
+  "test_cases": 256,
+  "reference_files": 433,
+  "checks": {
+    "pipeline_completed": true,
+    "same_document_count": true,
+    "same_occurrence_count": true,
+    "same_stem_dictionary": true,
+    "same_postings_count": true,
+    "text_snapshot_sha256": true,
+    "raw_sha256": true,
+    "packed_sha256": true,
+    "full_lossless_comparison": true,
+    "all_test_groups_passed": true,
+    "all_reference_files_unchanged": true,
+    "new_screenshot_slots": true,
+    "old_screenshots_removed": true,
+    "pdf_present": true,
+    "pdf_is_current": true
+  },
+  "passed": true
+}

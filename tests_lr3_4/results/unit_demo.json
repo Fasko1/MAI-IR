@@ -1,0 +1,10 @@
+{"runner":"C++ direct unit tests","compiler":"16.2.0","cases":[
+{"id":"U_T07","name":"Агент 007 и числовые идентификаторы","status":"PASS","checks":11,"failed_checks":0},
+{"id":"U_T09","name":"Научные слова, латиница и обозначения","status":"PASS","checks":12,"failed_checks":0},
+{"id":"U_T10","name":"Каноническое написание по словарю","status":"PASS","checks":9,"failed_checks":0},
+{"id":"U_T13","name":"Регрессии с подтверждением по своему корпусу","status":"PASS","checks":12,"failed_checks":0},
+{"id":"U_S02","name":"Область RV защищает короткие слова и отдельное ся","status":"PASS","checks":18,"failed_checks":0},
+{"id":"U_S03","name":"Семейство чтение и граница возможностей стемминга","status":"PASS","checks":18,"failed_checks":0},
+{"id":"U_S05","name":"Существительные и научные термины","status":"PASS","checks":18,"failed_checks":0},
+{"id":"U_S12","name":"Чередование основы, омонимия и отсутствие словарных исключений","status":"PASS","checks":15,"failed_checks":0}
+],"summary":{"PASS":8,"FAIL":0,"XFAIL":0,"XPASS":0,"checks":113}}

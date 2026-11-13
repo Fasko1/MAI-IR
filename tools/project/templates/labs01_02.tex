@@ -1,0 +1,122 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage{fontspec}
+\setmainfont{Times New Roman}
+\setmonofont{Courier New}[Scale=0.82]
+\usepackage[english]{babel}
+\addto\captionsenglish{\renewcommand{\figurename}{Рисунок}\renewcommand{\tablename}{Таблица}\renewcommand{\contentsname}{Содержание}}
+\renewcommand{\contentsname}{Содержание}
+\renewcommand{\tablename}{Таблица}
+\renewcommand{\figurename}{Рисунок}
+\usepackage[left=25mm,right=20mm,top=22mm,bottom=22mm]{geometry}
+\usepackage{graphicx,float,longtable,tabularx,array,amsmath,fancyvrb}
+\newsavebox{\ScreenshotBox}
+\newlength{\ScreenshotLeft}
+\newlength{\ScreenshotBottom}
+\newlength{\ScreenshotRight}
+\newlength{\ScreenshotTop}
+\usepackage[unicode,hidelinks]{hyperref}
+\usepackage{qrcode}
+\usepackage{xurl}
+\sloppy
+\emergencystretch=3em
+\usepackage{enumitem}
+\setlist{nosep,topsep=4pt}
+\setlength{\parindent}{1.25cm}
+\setlength{\parskip}{3pt}
+\renewcommand{\baselinestretch}{1.08}
+\setcounter{secnumdepth}{0}
+\newcommand{\code}[1]{\texttt{\detokenize{#1}}}
+\newcommand{\sub}[1]{\subsection{#1}}
+\makeatletter
+\renewcommand{\fnum@figure}{Рисунок~\thefigure}
+\makeatother
+\floatname{figure}{Рисунок}
+\begin{document}
+\renewcommand{\contentsname}{Содержание}
+\renewcommand{\tablename}{Таблица}
+\renewcommand{\figurename}{Рисунок}
+\begin{titlepage}
+\begin{center}\bfseries
+{\Large Московский авиационный институт\\(национальный исследовательский университет)}
+\vspace{18mm}
+
+{\large Факультет информационных технологий и прикладной математики}
+\vspace{12mm}
+
+{\large Кафедра вычислительной математики и программирования}
+\vspace{20mm}
+
+{\large Отчёт по лабораторным работам\\по курсу «Информационный поиск»}
+\vspace{8mm}
+
+\end{center}
+\vspace{24mm}
+\begin{flushright}
+\begin{tabular}{rl}
+Студент: & К. В. Кунавин \\
+Преподаватель: & А. А. Кухтичев \\
+Группа: & М8О-403Б-23 \\
+\end{tabular}
+\end{flushright}
+\begin{center}
+\small Исходный код и результаты работы\par
+\url{https://github.com/Fasko1/MAI-IR}\par\vspace{3mm}
+\qrcode[height=23mm]{https://github.com/Fasko1/MAI-IR}
+\end{center}
+\vfill
+\begin{center}\bfseries Москва, 2026\end{center}
+\end{titlepage}
+\tableofcontents
+\clearpage
+% ЛР1–2: постоянный текст. Таблицы измерений и снимки подставляет tools/report_sections.py.
+\section{Лабораторная работа № 1\\«Добыча корпуса документов»}
+\sub{Задача и источники}
+Подготовить корпус для поисковой системы: собрать статьи, выделить основной текст и метаданные, оценить объём и рассмотреть существующий поиск по источникам.
+
+Тема корпуса --- русскоязычные публикации о науке и технологиях. Основные источники --- «Биомолекула» (\url{https://biomolecula.ru}) и TechInsider (\url{https://www.techinsider.ru}). «Биомолекула» посвящена биологии и медицине, TechInsider --- научным открытиям и технике. Один документ соответствует одной статье. HTML, выделенный текст и метаданные хранятся в PostgreSQL.
+%%ADDITIONAL_SOURCES%%
+\sub{Выделение текста и метаданных}
+Адреса статей получаются из карт сайтов и архивов. Служебные страницы и повторные URL отбрасываются. В обработку попадают документы с непустым основным текстом.
+
+Парсер удаляет скрипты, навигацию и служебные блоки, объединяет абзацы и нормализует пробелы. Для «Биомолекулы» используется контейнер \code{div.mainbar__insert}, для TechInsider --- контейнер статьи. Заголовок, авторы и дата сначала ищутся в структурированных данных JSON-LD и метатегах, затем --- в видимых элементах страницы. Правила остальных источников находятся в сборщике \code{tools/collect_parallel.py} и модулях \code{probe_*}. HTML сохраняется вместе с текстом, чтобы результат извлечения можно было проверить.
+\sub{Существующий поиск}
+Для сравнения используются запросы Яндекса с ограничением по сайту: \code{site:biomolecula.ru иммунитет} и \code{site:techinsider.ru искусственный интеллект}. В результатах можно оценить соответствие запросу, заголовки и фрагменты. Внешний поиск меняется со временем; примеры на скриншотах относятся к моменту проверки.
+%%SOURCE_SEARCH_BIOMOLECULA%%
+%%SOURCE_SEARCH_TECHINSIDER%%
+Внешний поиск может показывать служебные страницы и материалы со случайным упоминанием слов. Собственный поисковик позволяет управлять составом корпуса, булевыми условиями и точными цитатами. При этом качество собственной выдачи зависит от извлечения текста и выбранного ранжирования.
+\sub{Объём корпуса}
+%%CORPUS_STATS%%
+
+\section{Лабораторная работа № 2\\«Поисковый робот»}
+\sub{Настройки и запуск}
+Робот загружает статьи и сохраняет их в PostgreSQL. Основная реализация: \code{lab02/crawler.py}. Для расширенного сбора по многим источникам используется \code{tools/collect_parallel.py}; источники и ограничения задаются в единственном \code{config.yaml}. Пароль БД хранится отдельно в локальном \code{.env}.
+
+В конфигурации задаются соединение с БД, источники, число документов, задержки, ограничения и правила повторной проверки. У разных сайтов могут быть разные допустимые задержки. После установки зависимостей запуск выполняется из корня:
+\begin{Verbatim}[fontsize=\small]
+python lab02/crawler.py config.yaml
+\end{Verbatim}
+Расширенный сбор управляется командами \code{project.ps1 collect -Background}, \code{collect -Summary} и \code{collect -Stop}. Для демонстрации уже собранного корпуса повторный сетевой обход не требуется.
+\sub{Загрузка и хранение}
+Очередь содержит нормализованные URL. Робот пропускает известные адреса, проверяет пригодность страницы, получает HTML и извлекает статью. Сетевые ошибки и неподходящие страницы учитываются без остановки всего сбора. Основные поля таблицы \code{documents}:
+\begin{longtable}{|p{58mm}|p{91mm}|}
+\caption{Хранимые данные документа}\\\hline
+Поле & Назначение \\\hline\endfirsthead
+\hline Поле & Назначение \\\hline\endhead
+\code{id} & Идентификатор записи \\\hline
+\code{url}, \code{normalized_url} & Исходный и нормализованный адреса; нормализованный URL уникален \\\hline
+\code{html}, \code{clean_text} & HTML и выделенный основной текст \\\hline
+\code{title}, \code{author}, \code{publish_date} & Заголовок, авторы и дата публикации \\\hline
+\code{source} & Источник статьи \\\hline
+\code{fetch_timestamp}, \code{last_fetch_attempt} & Время сохранения и последней проверки \\\hline
+\code{last_modified_header}, \code{etag_header} & Заголовки для условного HTTP-запроса \\\hline
+\end{longtable}
+\sub{Остановка и продолжение}
+Очередь и счётчик сохранённых документов записываются в файл состояния. При Ctrl+C робот завершает текущую операцию и сохраняет состояние; следующий запуск продолжает обработку. Уже имеющиеся в БД адреса пропускаются. Базовый робот использует \code{crawler_state.pkl}, расширенный сборщик --- своё состояние очереди. Это разные режимы запуска одной задачи сбора.
+\sub{Обновление документов}
+Период повторной проверки задаётся параметром \code{update_interval_seconds}. При наличии ETag и Last-Modified выполняется условный запрос. Ответ 304 обновляет время проверки. При ответе 200 сравнивается MD5 от заголовка, авторов, даты и текста: если содержание изменилось, запись обновляется. Изменение одной HTML-разметки при прежнем тексте не требует перезаписи статьи.
+
+Для отдельной проверки сохранённых статей предусмотрен режим \code{--update-only}. Параметр \code{--limit 3} ограничивает выборку тремя статьями, \code{--update-interval 0} отменяет ожидание только на этот запуск. Конфигурационный файл при этом не изменяется. В приведённом запуске серверы вернули HTTP 200: одна запись обновлена, у двух содержимое совпало.
+\sub{Проверки и результаты}
+%%ROBOT_RESULTS%%
+\sub{Экспорт для поиска}
+Экспорт \code{lab03/export_texts.py --stream} читает БД серверным курсором и создаёт \code{data/corpus/texts.tsv}. Строка содержит ID, текст, заголовок и URL; внутренние переводы строк и TAB заменяются пробелами. База используется для сбора, поиск выполняется по собственному бинарному индексу. Базовый пересчёт запускается командой \code{project.ps1 rebuild}, подготовка лемм, координат, прыжков и данных сниппетов --- \code{project.ps1 upgrade}.

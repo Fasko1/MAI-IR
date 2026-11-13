@@ -1,0 +1,10 @@
+# Сбор корпуса: HTTP, HTML/XML, конфиг, PostgreSQL и локальные переменные окружения.
+requests
+beautifulsoup4
+PyYAML
+psycopg2-binary
+python-dotenv
+lxml
+# Анализ и графики; поисковое ядро реализовано на C++, а не этими библиотеками.
+numpy
+matplotlib

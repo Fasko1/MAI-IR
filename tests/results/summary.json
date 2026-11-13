@@ -1,0 +1,52 @@
+[
+  {
+    "group": "linguistics_unit",
+    "exit_code": 0,
+    "seconds": 0.061
+  },
+  {
+    "group": "linguistics_cli",
+    "exit_code": 0,
+    "seconds": 0.716
+  },
+  {
+    "group": "linguistics_contracts",
+    "exit_code": 0,
+    "seconds": 0.352
+  },
+  {
+    "group": "zipf_cli",
+    "exit_code": 0,
+    "seconds": 0.505
+  },
+  {
+    "group": "search_unit",
+    "exit_code": 0,
+    "seconds": 0.016
+  },
+  {
+    "group": "search_cli",
+    "exit_code": 0,
+    "seconds": 3.697
+  },
+  {
+    "group": "web",
+    "exit_code": 0,
+    "seconds": 0.768
+  },
+  {
+    "group": "stream",
+    "exit_code": 0,
+    "seconds": 0.468
+  },
+  {
+    "group": "extensions",
+    "exit_code": 0,
+    "seconds": 0.922
+  },
+  {
+    "group": "collection",
+    "exit_code": 0,
+    "seconds": 2.455
+  }
+]

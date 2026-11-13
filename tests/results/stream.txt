@@ -1,0 +1,11 @@
+test_audit_checks_saved_alignment (__main__.StreamTests.test_audit_checks_saved_alignment) ... ok
+test_frequency_counts_are_independent (__main__.StreamTests.test_frequency_counts_are_independent) ... ok
+test_index_is_identical_to_file_manifest (__main__.StreamTests.test_index_is_identical_to_file_manifest) ... ok
+test_invalid_utf8_is_rejected (__main__.StreamTests.test_invalid_utf8_is_rejected) ... ok
+test_preprocessing_matches_existing_clis (__main__.StreamTests.test_preprocessing_matches_existing_clis) ... ok
+test_unicode_paths (__main__.StreamTests.test_unicode_paths) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.314s
+
+OK

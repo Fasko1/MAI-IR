@@ -1,0 +1,269 @@
+{
+  "suite": "IR_CLI",
+  "cases": 37,
+  "passed": 37,
+  "failed": 0,
+  "seconds": 3.6049344999919413,
+  "engine": "C:\\Users\\Kirill\\Desktop\\MAI-IR\\build\\ir_engine.exe",
+  "test_cases": [
+    {
+      "name": "B01 binary_roundtrip",
+      "basis": "ЛР7: собственный бинарный индекс и загрузка новым процессом",
+      "status": "PASS",
+      "detail": "",
+      "seconds": 0.010076699996716343
+    },
+    {
+      "name": "B02 direct_index",
+      "basis": "ЛР7: title и URL доступны из индекса; дополнение включает пустой документ",
+      "status": "PASS",
+      "detail": "",
+      "seconds": 0.010370999996666797
+    },
+    {
+      "name": "B03 repetitions",
+      "basis": "ЛР7: повтор термина увеличивает tf, но не дублирует документ в булевом ответе",
+      "status": "PASS",
+      "detail": "",
+      "seconds": 0.019427099992753938
+    },
+    {
+      "name": "Q01 intersection",
+      "basis": "ЛР8: пробел и && означают пересечение в булевом режиме",
+      "status": "PASS",
+      "detail": "",
+      "seconds": 0.01993199999560602
+    },
+    {
+      "name": "Q02 union",
+      "basis": "ЛР8: || означает объединение, неизвестный термин — пустое множество",
+      "status": "PASS",
+      "detail": "",
+      "seconds": 0.020637499997974373
+    },
+    {
+      "name": "Q03 complement",
+      "basis": "ЛР8: ! — дополнение относительно всех документов, включая пустые",
+      "status": "PASS",
+      "detail": "",
+      "seconds": 0.03161069999623578
+    },
+    {
+      "name": "Q04 precedence",
+      "basis": "ЛР8: приоритет !, затем &&, затем ||; скобки меняют порядок",
+      "status": "PASS",
+      "detail": "",
+      "seconds": 0.03234550000343006
+    },
+    {
+      "name": "Q05 adjacency",
+      "basis": "ЛР8: неявное И между терминами, скобками и отрицанием",
+      "status": "PASS",
+      "detail": "",
+      "seconds": 0.020826599997235462
+    },
+    {
+      "name": "Q06 whitespace",
+      "basis": "ЛР8: переменное число пробелов и табуляция не меняют смысл",
+      "status": "PASS",
+      "detail": "",
+      "seconds": 0.031144599997787736
+    },
+    {
+      "name": "Q07 normalization",
+      "basis": "ЛР7/8: общая нормализация индекса и запроса, регистр и словоформы",
+      "status": "PASS",
+      "detail": "",
+      "seconds": 0.03165629999421071
+    },
+    {
+      "name": "Q08 keyword_operators",
+      "basis": "Документированное расширение языка: AND/OR/NOT эквивалентны символам",
+      "status": "PASS",
+      "detail": "",
+      "seconds": 0.02115380000032019
+    },
+    {
+      "name": "Q09 unknown_terms",
+      "basis": "ЛР8: неизвестные термины и их отрицание подчиняются законам множеств",
+      "status": "PASS",
+      "detail": "",
+      "seconds": 0.031090199991012923
+    },
+    {
+      "name": "Q10 blank_queries",
+      "basis": "Пустой запрос не должен неожиданно возвращать весь корпус",
+      "status": "PASS",
+      "detail": "",
+      "seconds": 0.032352199996239506
+    },
+    {
+      "name": "Q11 syntax_errors_stream",
+      "basis": "ЛР8/17: неверный запрос диагностируется; следующая строка обрабатывается",
+      "status": "PASS",
+      "detail": "",
+      "seconds": 0.01089039999351371
+    },
+    {
+      "name": "Q12 generated_expression_oracle",
+      "basis": "ЛР17: детерминированные выражения; независимый эталон — операции Python set",
+      "status": "PASS",
+      "detail": "",
+      "seconds": 0.014788600004976615
+    },
+    {
+      "name": "R01 soft_plain_query",
+      "basis": "ЛР13: обычный запрос через пробелы допускает совпадение части терминов",
+      "status": "PASS",
+      "detail": "",
+      "seconds": 0.016883099990081973
+    },
+    {
+      "name": "R02 strict_boolean_query",
+      "basis": "ЛР13: явный && сохраняет строгое соответствие перед ранжированием",
+      "status": "PASS",
+      "detail": "",
+      "seconds": 0.012839900009566918
+    },
+    {
+      "name": "R03 tf_idf_arithmetic",
+      "basis": "ЛР13: веса (1+ln tf)*ln(1+N/df), L2-нормы и косинус считаются независимо",
+      "status": "PASS",
+      "detail": "",
+      "seconds": 0.02933449999545701
+    },
+    {
+      "name": "R04 repeated_query_terms",
+      "basis": "ЛР13: повтор в запросе изменяет его tf, повтор не создаёт лишний результат",
+      "status": "PASS",
+      "detail": "",
+      "seconds": 0.009972900006687269
+    },
+    {
+      "name": "R05 negative_term_weights",
+      "basis": "ЛР13: отрицательные термины фильтруют, но не добавляются в положительный вектор",
+      "status": "PASS",
+      "detail": "",
+      "seconds": 0.03095980000216514
+    },
+    {
+      "name": "R06 unseen_query_term",
+      "basis": "ЛР13: отсутствующий в словаре термин не меняет веса известных терминов",
+      "status": "PASS",
+      "detail": "",
+      "seconds": 0.009950100007699803
+    },
+    {
+      "name": "R07 ties",
+      "basis": "ЛР13: равные векторы имеют равные scores; ничья разрешается лексикографическим ID",
+      "status": "PASS",
+      "detail": "",
+      "seconds": 0.00832819999777712
+    },
+    {
+      "name": "R08 hand_calculated_cosine",
+      "basis": "ЛР13: три документа, df=2, численные ответы вычислены вручную",
+      "status": "PASS",
+      "detail": "",
+      "seconds": 0.02819440000166651
+    },
+    {
+      "name": "Q13 pagination",
+      "basis": "ЛР8: offset/limit меняют страницу, общее count сохраняется",
+      "status": "PASS",
+      "detail": "",
+      "seconds": 0.06086769999819808
+    },
+    {
+      "name": "C01 lossless_search",
+      "basis": "ЛР11: все ID, метаданные, порядок и scores совпадают до/после сжатия",
+      "status": "PASS",
+      "detail": "",
+      "seconds": 0.04277259999071248
+    },
+    {
+      "name": "C02 direct_compressed_build",
+      "basis": "ЛР11: прямая сборка с --compressed эквивалентна упаковке готового индекса",
+      "status": "PASS",
+      "detail": "",
+      "seconds": 0.07267649999994319
+    },
+    {
+      "name": "C03 verify_and_stats",
+      "basis": "ЛР7/11: полный проход проверяет целостность каждого представления индекса",
+      "status": "PASS",
+      "detail": "",
+      "seconds": 0.04119170000194572
+    },
+    {
+      "name": "E01 wrong_magic",
+      "basis": "ЛР7/17: случайный или чужой файл отклоняется с ненулевым кодом",
+      "status": "PASS",
+      "detail": "",
+      "seconds": 0.012573800006066449
+    },
+    {
+      "name": "E06 version_and_checksum",
+      "basis": "ЛР7/11: неизвестная версия и повреждение полезных данных отклоняются",
+      "status": "PASS",
+      "detail": "",
+      "seconds": 0.05491549998987466
+    },
+    {
+      "name": "E02 truncated_indices",
+      "basis": "ЛР11/17: оборванные заголовки, словарь и постинги отклоняются",
+      "status": "PASS",
+      "detail": "",
+      "seconds": 0.08801749999111053
+    },
+    {
+      "name": "E03 duplicate_ids",
+      "basis": "ЛР7: одинаковые внешние ID не должны незаметно объединять разные документы",
+      "status": "PASS",
+      "detail": "",
+      "seconds": 0.011842699997941963
+    },
+    {
+      "name": "E04 missing_source",
+      "basis": "ЛР7: отсутствующий файл корпуса — явная ошибка, не тихий пропуск",
+      "status": "PASS",
+      "detail": "",
+      "seconds": 0.011046500003430992
+    },
+    {
+      "name": "E07 failed_build_preserves_index",
+      "basis": "ЛР7: неудачная пересборка не заменяет существующий рабочий индекс",
+      "status": "PASS",
+      "detail": "",
+      "seconds": 0.021801199996843934
+    },
+    {
+      "name": "E05 invalid_arguments",
+      "basis": "ЛР17: неверные режимы и недопустимая пагинация диагностируются",
+      "status": "PASS",
+      "detail": "",
+      "seconds": 0.040220199996838346
+    },
+    {
+      "name": "C04 variable_byte_boundaries",
+      "basis": "ЛР11: tf и промежутки docID на границах 127/128/16383/16384 кодируются без потерь",
+      "status": "PASS",
+      "detail": "",
+      "seconds": 2.3322756999987178
+    },
+    {
+      "name": "C05 block_group_measurements",
+      "basis": "ЛР11: отдельно все/редкие/средние/частые блоки; канонические суммы одинаковы",
+      "status": "PASS",
+      "detail": "",
+      "seconds": 0.022116400010418147
+    },
+    {
+      "name": "B04 external_merge",
+      "basis": "ЛР7: ограничение буфера вызывает несколько сортированных серий; результат не зависит от размера буфера",
+      "status": "PASS",
+      "detail": "",
+      "seconds": 0.25712819999898784
+    }
+  ]
+}
